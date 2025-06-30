@@ -1,0 +1,535 @@
+{
+  "name": "Skiing Around The World",
+  "version": "1.0",
+  "author": "Shannon",
+  "description": "A jaunt through the world of skiing",
+  "rounds": [
+    {
+      "round_number": 1,
+      "theme_name": "California Skiin'",
+      "theme_description": "Let's kick this off our journey in a place you can ski and surf on the same day.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What Northern California ski resort has three runs named after local olympians?",
+          "answer": "Palisades Tahoe",
+          "explanation": "At Palisades Tahoe, three ski runs—Moseley’s, Julia’s Gold, and Tamara’s—are named after Olympic skiers Jonny Moseley, Julia Mancuso, and Tamara McKinney.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which ski resort in California is located on a potentially active volcano?",
+          "answer": "Mt Shasta Ski Park",
+          "explanation": "Mt Shasta Ski Park is located on the majestic Mount Shasta, a potentially active stratovolcano in the Cascade Range.  Mt Hood Meadows is also on an volcano, but it is located in Oregon.",
+          "points": 1,
+          "options": [
+            "Northstar",
+            "Mammoth Mountain",
+            "Mt Shasta Ski Park",
+            "Mount Hood Meadows"
+          ]
+        },
+        {
+          "type": "closest_number",
+          "question": "How many ski resorts are there in California as of 2025?",
+          "answer": "36",
+          "explanation": "California has 36 ski resorts as of 2025, offering a wide range of terrain from the Sierra to Southern California. The oldest is Badger Pass, which opened in 1935 and is located inside Yosemite National Park, making it one of the first ski areas in the U.S. to operate within a national park.",
+          "points": 1,
+          "scoring_type": "closest"
+        },
+        {
+          "type": "text_answer",
+          "question": "Which California ski resort is so close to the Pacific Ocean that you can surf in the morning and be skiing after only a 90 minute drive?",
+          "answer": "Mountain High",
+          "explanation": "Mountain High – Located just 90 minutes from L.A.'s beaches, it's the closest ski resort to the Pacific, though with LA traffic, that 90 minute drive could be A LOT longer!",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which Mammoth Mountain run is named after an American Olympic gold medalist skier known for her success in the late 1990s, including winning gold in the downhill at the Nagano 1998 Winter Games?",
+          "answer": "The Picabo Street Run",
+          "explanation": "Named after Picabo Street, one of the most successful American alpine skiers, this run honors her 1998 Olympic downhill gold and her influential role in popularizing women’s ski racing in the U.S.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "At which ski resort can you ski in California and then take a lift across the state border into Nevada—effectively skiing in two states in one day?",
+          "answer": "Heavenly Mountain Resort",
+          "explanation": "Heavenly uniquely straddles the California-Nevada border, and its lifts and runs cross state lines, letting skiers enjoy two states’ terrain—and even grab a drink in Nevada’s casinos after a day on the slopes.\n",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 2,
+      "theme_name": "Pacific Northwest Powder",
+      "theme_description": "Big mountains, great coffee, unpredictable weather, and lots of volcanos.",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Which of these Pacific Northwest Ski resorts is made up?",
+          "answer": "Cascade Ridge",
+          "explanation": "It sounds like it should be a resort...but it isn't.",
+          "points": 1,
+          "options": [
+            "White Pass",
+            "Cascade Ridge",
+            "Hoodoo",
+            "Timberline"
+          ]
+        },
+        {
+          "type": "text_answer",
+          "question": "Which Oregon ski resort is famous for staying open year-round and hosting summer ski camps on a glacier?",
+          "answer": "Timberline Lodge",
+          "explanation": "Timberline Lodge on Mount Hood operates year-round skiing on Palmer Glacier, making it one of the few places in North America for summer skiing.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What Washington ski resort receives over 400 inches of snow annually and offers stunning views of Mount Rainier?",
+          "answer": "Crystal Mountain",
+          "explanation": "Crystal Mountain gets an average of 400+ inches of snow annually and offers stunning views of Mount Rainier from its slopes.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "The Pacific Northwest is home to more active volcanoes than any other region in the continental United States.",
+          "answer": "true",
+          "explanation": "The Cascade Range has 13 active volcanoes, more than any other region in the continental US, including Mount Rainier, Mount Baker, and Mount Hood.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "What is the elevation in feet of the summit at Whistler Mountain in British Columbia?",
+          "answer": "7160",
+          "explanation": "Whistler Mountain's peak sits at 7,160 feet, while neighboring Blackcomb reaches 7,494 feet.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Pacific Northwest ski area was featured prominently in the movie 'The Shining'?",
+          "answer": "Timberline Lodge",
+          "explanation": "The exterior shots of the Overlook Hotel in Stanley Kubrick's 'The Shining' were filmed at Timberline Lodge on Mount Hood.",
+          "points": 1,
+          "options": [
+            "Mount Baker",
+            "Crystal Mountain",
+            "Timberline Lodge",
+            "Mount Hood Meadows"
+          ]
+        }
+      ]
+    },
+    {
+      "round_number": 3,
+      "theme_name": "Western Canada Wilderness",
+      "theme_description": "From the Canadian Rockies to coastal ranges, eh?",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which Canadian ski resort co-hosted the 2010 Winter Olympics alpine skiing events?",
+          "answer": "Whistler Blackcomb",
+          "explanation": "Whistler Blackcomb hosted the alpine skiing events during the 2010 Vancouver Winter Olympics.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What is the name of the famous off-piste skiing area at Whistler known for its steep terrain?",
+          "options": ["The Couloir", "The Chute", "Cornice Bowl", "The Face"],
+          "answer": "Cornice Bowl",
+          "explanation": "Cornice Bowl is one of Whistler's most challenging off-piste areas, requiring avalanche gear and advanced skills.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which Alberta ski resort is located in Banff National Park and known for its three distinct mountains?",
+          "answer": "Lake Louise",
+          "explanation": "Lake Louise Ski Resort features three mountains: Mount Whitehorn, Mount Richardson, and Larch Mountain, all within stunning Banff National Park.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Whistler Blackcomb has the longest vertical drop of any ski resort in North America.",
+          "answer": "true",
+          "explanation": "Whistler Blackcomb boasts a 5,280-foot vertical drop, making it the longest in North America.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many ski resorts are there in British Columbia?",
+          "answer": "40",
+          "explanation": "British Columbia has approximately 40 ski resorts, from world-class destinations like Whistler to smaller local hills.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What type of skiing is Revelstoke, BC particularly famous for?",
+          "answer": "Heli-skiing",
+          "explanation": "Revelstoke is considered the heli-skiing capital of the world, with massive vertical drops and deep powder skiing accessed by helicopter.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 4,
+      "theme_name": "Rocky Mountain High",
+      "theme_description": "High altitude skiing in Colorado and beyond.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which Colorado ski resort has the highest base elevation in North America?",
+          "answer": "Loveland",
+          "explanation": "Loveland Ski Area has a base elevation of 10,800 feet, making it the highest base elevation in North America.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which famous Colorado ski town was once a silver mining settlement?",
+          "options": ["Vail", "Aspen", "Telluride", "All of the above"],
+          "answer": "All of the above",
+          "explanation": "Vail, Aspen, and Telluride were all originally silver mining towns in the late 1800s before becoming world-renowned ski destinations.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the name of the famous black diamond run at Corbet's Couloir?",
+          "answer": "Jackson Hole",
+          "explanation": "Corbet's Couloir is the legendary steep and narrow chute at Jackson Hole Mountain Resort in Wyoming, known for its mandatory air at the entrance.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Aspen has four separate ski mountains.",
+          "answer": "true",
+          "explanation": "Aspen includes four mountains: Aspen Mountain (Ajax), Aspen Highlands, Buttermilk, and Snowmass.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "What is the summit elevation in feet of Arapahoe Basin, one of Colorado's highest ski areas?",
+          "answer": "13050",
+          "explanation": "A-Basin's summit reaches 13,050 feet, making it one of the highest ski areas in North America and allowing skiing well into June.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Colorado ski resort is famous for its extensive terrain parks and hosting the Winter X Games?",
+          "options": ["Vail", "Aspen", "Buttermilk", "Keystone"],
+          "answer": "Buttermilk",
+          "explanation": "Buttermilk at Aspen is renowned for its terrain parks and has hosted the Winter X Games multiple times.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 5,
+      "theme_name": "New England Traditions",
+      "theme_description": "Where American skiing began, with ice, history, and character.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which Vermont ski resort claims to be 'America's First Ski Resort'?",
+          "answer": "Stowe",
+          "explanation": "Stowe Mountain Resort claims the title of America's First Ski Resort, with skiing beginning there in the 1930s.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What is the highest peak in New England that offers alpine skiing?",
+          "options": ["Mount Washington", "Mount Mansfield", "Killington Peak", "Mount Katahdin"],
+          "answer": "Mount Washington",
+          "explanation": "Mount Washington in New Hampshire, at 6,288 feet, is New England's highest peak and offers extreme skiing at Tuckerman Ravine.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which New Hampshire ski resort is famous for its 'Bode Miller Trail' named after the Olympic skier?",
+          "answer": "Cannon Mountain",
+          "explanation": "Cannon Mountain features the Bode Miller Trail, named after the New Hampshire native who won six Olympic medals.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Killington Resort in Vermont is known as 'The Beast of the East.'",
+          "answer": "true",
+          "explanation": "Killington earned this nickname due to its massive size, challenging terrain, and reputation for opening early and staying open late in the season.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many ski areas operate in Vermont?",
+          "answer": "15",
+          "explanation": "Vermont has approximately 15 ski areas, from major destinations like Stowe and Killington to smaller local mountains.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What New England skiing technique involves navigating through tight trees and is named after the region's dense forests?",
+          "answer": "Tree skiing",
+          "explanation": "New England is famous for its challenging tree skiing, where skiers navigate through tight forests of birch, maple, and pine trees.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 6,
+      "theme_name": "French Alpine Grandeur",
+      "theme_description": "Sophistication, grandes stations, and legendary off-piste.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What is the highest ski resort in Europe?",
+          "answer": "Val Thorens",
+          "explanation": "Val Thorens, France, at 2,300 meters (7,545 feet), is the highest ski resort in Europe and part of the Three Valleys ski area.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which French ski resort is famous for the Vallée Blanche glacier run?",
+          "options": ["Val d'Isère", "Chamonix", "Courchevel", "Méribel"],
+          "answer": "Chamonix",
+          "explanation": "The Vallée Blanche is Chamonix's legendary 20km off-piste glacier run, considered one of the world's greatest ski descents.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the name of the world's largest ski area that connects multiple French resorts?",
+          "answer": "Les Trois Vallées",
+          "explanation": "Les Trois Vallées (The Three Valleys) connects eight resorts including Courchevel, Méribel, and Val Thorens, with over 600km of pistes.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Chamonix hosted the first-ever Winter Olympic Games.",
+          "answer": "true",
+          "explanation": "Chamonix hosted the first Winter Olympic Games in 1924, establishing it as a legendary winter sports destination.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many kilometers of pistes are in the Three Valleys ski area?",
+          "answer": "600",
+          "explanation": "Les Trois Vallées boasts over 600 kilometers of marked pistes, making it the world's largest ski area.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What French term describes the dangerous off-piste skiing areas that are unmarked and unpatrolled?",
+          "answer": "Hors-piste",
+          "explanation": "Hors-piste refers to off-piste skiing in unmarked, unpatrolled areas where skiers assume all responsibility for their safety.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 7,
+      "theme_name": "Swiss Precision",
+      "theme_description": "Clockwork lifts, fondue, and Alpine perfection.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which Swiss ski resort hosts the famous Lauberhorn downhill race, the longest downhill on the World Cup circuit?",
+          "answer": "Wengen",
+          "explanation": "The Lauberhorn downhill in Wengen is the longest downhill race on the World Cup circuit at 4.27 km, featuring the infamous Hundschopf jump.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Swiss mountain is known as 'The Matterhorn of Ski Resorts'?",
+          "options": ["Zermatt", "St. Moritz", "Verbier", "Davos"],
+          "answer": "Zermatt",
+          "explanation": "Zermatt sits at the base of the iconic Matterhorn and offers year-round skiing on the Theodul Glacier.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What Swiss resort is famous for hosting the annual World Economic Forum?",
+          "answer": "Davos",
+          "explanation": "Davos hosts the annual World Economic Forum and is also known for having the highest ski resort town in Europe at 1,560 meters.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "St. Moritz has hosted the Winter Olympics twice.",
+          "answer": "true",
+          "explanation": "St. Moritz hosted the Winter Olympics in 1928 and 1948, making it one of only three cities to host the Winter Games twice.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "What is the elevation in meters of Klein Matterhorn, Europe's highest cable car station?",
+          "answer": "3883",
+          "explanation": "Klein Matterhorn reaches 3,883 meters (12,740 feet), making it the highest cable car station in Europe and offering year-round skiing.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What type of skiing was invented in Switzerland and involves ascending mountains before skiing down?",
+          "answer": "Ski touring",
+          "explanation": "Ski touring (or ski mountaineering) was developed in Switzerland, combining climbing and skiing to access pristine backcountry terrain.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 8,
+      "theme_name": "Austrian Excellence",
+      "theme_description": "The birthplace of alpine ski technique and legendary racers.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which Austrian ski resort hosts the most feared downhill race on the World Cup circuit?",
+          "answer": "Kitzbühel",
+          "explanation": "The Hahnenkamm downhill at Kitzbühel is considered the most challenging and dangerous race on the World Cup circuit, with its notorious Mausefalle (Mousetrap) section.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What Austrian technique revolutionized alpine skiing in the 1950s?",
+          "options": ["Wedel turn", "Carved turn", "Austrian technique", "Parallel turn"],
+          "answer": "Austrian technique",
+          "explanation": "The Austrian technique, emphasizing weight shift and edging, revolutionized ski instruction worldwide and formed the basis of modern alpine skiing.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which legendary Austrian skier won 25 World Cup downhill races and was known as 'The Herminator'?",
+          "answer": "Hermann Maier",
+          "explanation": "Hermann Maier, nicknamed 'The Herminator,' was one of Austria's greatest ski racers, famous for his aggressive style and dramatic crashes.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Innsbruck has hosted the Winter Olympics twice.",
+          "answer": "true",
+          "explanation": "Innsbruck hosted the Winter Olympics in 1964 and 1976, making it one of only three cities to host the Winter Games twice.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many ski resorts are there in Austria?",
+          "answer": "250",
+          "explanation": "Austria has approximately 250 ski resorts, from world-famous destinations like St. Anton to small local ski hills throughout the Alps.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What Austrian resort is famous for its off-piste skiing and is considered the birthplace of extreme skiing?",
+          "answer": "St. Anton am Arlberg",
+          "explanation": "St. Anton am Arlberg is legendary for its challenging off-piste terrain and is widely considered the birthplace of extreme skiing and modern ski technique.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 9,
+      "theme_name": "Italian Dolomites Drama",
+      "theme_description": "Spectacular peaks, world-class cuisine, and unique geology.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What massive ski circuit connects 12 resorts in the Italian Dolomites?",
+          "answer": "Dolomiti Superski",
+          "explanation": "Dolomiti Superski connects 12 ski resorts across the Dolomites with one lift ticket, covering over 1,200km of pistes.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Italian resort is famous for hosting the FIS Alpine World Ski Championships and the Winter Olympics?",
+          "options": ["Cortina d'Ampezzo", "Val Gardena", "Alta Badia", "Canazei"],
+          "answer": "Cortina d'Ampezzo",
+          "explanation": "Cortina d'Ampezzo hosted the 1956 Winter Olympics and will co-host the 2026 Olympics, and has hosted World Championships multiple times.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What famous World Cup ski race takes place annually on the Saslong course in Val Gardena?",
+          "answer": "Downhill",
+          "explanation": "The Saslong downhill in Val Gardena is one of the most spectacular and challenging races on the World Cup circuit, known for its speed and dramatic mountain backdrop.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "The Dolomites are known for their distinctive pink-colored rock formations.",
+          "answer": "true",
+          "explanation": "The Dolomites are famous for their distinctive pale limestone that turns pink and orange during sunrise and sunset, called 'alpenglow.'",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "In what year will Cortina d'Ampezzo co-host the Winter Olympics?",
+          "answer": "2026",
+          "explanation": "Cortina d'Ampezzo will co-host the 2026 Winter Olympics with Milan, marking its return to Olympic hosting after 70 years.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What Italian culinary tradition involves ski-in, ski-out mountain huts serving local specialties?",
+          "answer": "Rifugio",
+          "explanation": "Rifugios are traditional mountain huts throughout the Italian Alps where skiers can enjoy authentic local cuisine like polenta, speck, and local wines.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 10,
+      "theme_name": "Japanese Powder Paradise",
+      "theme_description": "Deep powder, hot springs, and unique mountain culture.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What type of snow is Japan famous for that comes from Siberian storms?",
+          "answer": "Japow",
+          "explanation": "'Japow' (Japanese powder) is the incredibly light, dry powder snow that results from cold Siberian air masses picking up moisture over the Sea of Japan.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Japanese resort hosted the 1998 Winter Olympics?",
+          "options": ["Niseko", "Hakuba", "Rusutsu", "Zao"],
+          "answer": "Hakuba",
+          "explanation": "Hakuba Valley hosted the alpine skiing events during the 1998 Nagano Winter Olympics and remains Japan's most internationally known ski destination.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the Japanese term for the traditional hot spring baths that skiers enjoy après-ski?",
+          "answer": "Onsen",
+          "explanation": "Onsen are natural hot spring baths that are an integral part of Japanese ski culture, perfect for relaxing after a day in deep powder.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Hokkaido receives more annual snowfall than most ski resorts in the world.",
+          "answer": "true",
+          "explanation": "Hokkaido resorts like Niseko receive 15+ meters (50+ feet) of snow annually, among the highest in the world, due to their unique geographic position.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many meters of snow does Niseko typically receive in an average winter?",
+          "answer": "15",
+          "explanation": "Niseko receives an average of 15 meters (nearly 50 feet) of snow each winter, making it one of the snowiest ski resorts in the world.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What unique Japanese skiing feature involves naturally spaced birch trees that create perfect glades for powder skiing?",
+          "answer": "Birch glades",
+          "explanation": "Japanese resorts are famous for their naturally spaced birch glades, where the trees create perfect spacing for powder skiing without the dense undergrowth found in other regions.",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

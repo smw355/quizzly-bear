@@ -1,0 +1,514 @@
+{
+  "name": "Northern California Chronicles",
+  "version": "1.0",
+  "author": "Bay Area Quiz Masters",
+  "description": "10 rounds celebrating the culture, history, and quirks of Northern California",
+  "rounds": [
+    {
+      "round_number": 1,
+      "theme_name": "City by the Bay",
+      "theme_description": "San Francisco landmarks and urban mysteries",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What unusual color was chosen for the Bay Area's most famous suspension bridge to improve visibility in fog?",
+          "answer": "International Orange",
+          "explanation": "The Golden Gate Bridge is painted in International Orange to enhance visibility in San Francisco's frequent fog.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which prison island in San Francisco Bay was famously known as 'The Rock'?",
+          "options": ["Angel Island", "Treasure Island", "Alcatraz", "Yerba Buena Island"],
+          "answer": "Alcatraz",
+          "explanation": "Alcatraz Island housed a federal prison from 1934 to 1963 and was nicknamed 'The Rock'.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which San Francisco street has eight hairpin turns and claims to be the world's most crooked?",
+          "answer": "Lombard Street",
+          "explanation": "Lombard Street has eight sharp turns and is a major tourist attraction.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "San Francisco has more dogs than children as residents.",
+          "answer": "true",
+          "explanation": "San Francisco famously has more registered dogs than children under 18.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many hills is San Francisco traditionally said to be built on?",
+          "answer": "7",
+          "explanation": "San Francisco is famously built on seven hills, though the actual count varies depending on definition.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What four-letter transit system connects San Francisco to Oakland and other East Bay cities?",
+          "answer": "BART",
+          "explanation": "Bay Area Rapid Transit (BART) is the regional rail system serving the Bay Area.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 2,
+      "theme_name": "Silicon Valley Innovations",
+      "theme_description": "Tech companies and digital revolutions born in the Bay",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "In which Northern California garage did Apple Computer get its start?",
+          "answer": "Los Altos",
+          "explanation": "Steve Jobs' family garage in Los Altos is considered the birthplace of Apple.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What search engine company was founded at Stanford University in 1996?",
+          "answer": "Google",
+          "explanation": "Larry Page and Sergey Brin founded Google while they were PhD students at Stanford.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which social media platform was founded by Mark Zuckerberg while he was at Harvard but is now headquartered in Menlo Park?",
+          "options": ["Twitter", "Instagram", "Facebook", "LinkedIn"],
+          "answer": "Facebook",
+          "explanation": "Facebook (now Meta) moved its headquarters to Menlo Park, California.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What ride-sharing company was founded in San Francisco in 2009?",
+          "answer": "Uber",
+          "explanation": "Uber was founded in San Francisco and revolutionized transportation.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Tesla's headquarters is located in Fremont, California.",
+          "answer": "false",
+          "explanation": "Tesla moved its headquarters to Austin, Texas in 2021, though it still has major operations in Fremont.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What streaming service was founded in Los Gatos, California in 1997?",
+          "answer": "Netflix",
+          "explanation": "Netflix started as a DVD-by-mail service in Los Gatos before becoming a streaming giant.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 3,
+      "theme_name": "Wine Country Wonders",
+      "theme_description": "Napa, Sonoma, and the art of viticulture",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which two main counties make up Northern California's primary wine regions?",
+          "answer": "Napa and Sonoma",
+          "explanation": "Napa and Sonoma counties are the heart of Northern California wine country.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What famous 1976 wine tasting event put California wines on the international map?",
+          "options": ["Paris Tasting", "Judgment of Paris", "Bordeaux Challenge", "California Classic"],
+          "answer": "Judgment of Paris",
+          "explanation": "The 1976 Judgment of Paris saw California wines beat French wines in a blind tasting.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the name of the famous wine train that runs through Napa Valley?",
+          "answer": "Napa Valley Wine Train",
+          "explanation": "The Napa Valley Wine Train offers dining and wine tasting experiences aboard vintage train cars.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Cabernet Sauvignon is the most planted grape variety in Napa Valley.",
+          "answer": "true",
+          "explanation": "Cabernet Sauvignon is indeed the most widely planted grape in Napa Valley.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What Italian grape variety is Sonoma County particularly famous for growing?",
+          "answer": "Sangiovese",
+          "explanation": "Sonoma County is known for growing Sangiovese, the primary grape in Chianti, along with other Italian varieties.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "Approximately how many wineries are there in Napa Valley?",
+          "answer": "400",
+          "explanation": "Napa Valley has around 400 wineries spread across its 30-mile length.",
+          "scoring_type": "closest",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 4,
+      "theme_name": "Ground Zero",
+      "theme_description": "Natural disasters and geological phenomena",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which major tectonic boundary runs through the Bay Area and extends from Mexico to Northern California?",
+          "answer": "San Andreas Fault",
+          "explanation": "The San Andreas Fault is the primary fault responsible for seismic activity in the region.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many seconds of warning did the ShakeAlert system provide before the 2019 Ridgecrest earthquake was felt in the Bay Area?",
+          "answer": "20",
+          "explanation": "The ShakeAlert system provided about 20 seconds of warning for Bay Area residents.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What sporting event was famously interrupted by the 1989 Loma Prieta earthquake?",
+          "options": ["Super Bowl", "World Series", "NBA Finals", "Masters Tournament"],
+          "answer": "World Series",
+          "explanation": "The 1989 World Series between the Giants and Athletics was interrupted by the 6.9 magnitude earthquake.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "The Hayward Fault runs directly under UC Berkeley's Memorial Stadium.",
+          "answer": "true",
+          "explanation": "Memorial Stadium sits directly on the Hayward Fault line, and the fault is visible in the stadium structure.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What emergency communication method was widely used during the 1906 disaster when telephone lines were down?",
+          "answer": "Telegraph",
+          "explanation": "Telegraph lines were crucial for communication during and after the 1906 earthquake and fires.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What type of seismic wave arrives first but causes less damage than the waves that follow?",
+          "answer": "P-wave",
+          "explanation": "P-waves (primary waves) are the fastest-moving earthquake waves that arrive first.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 5,
+      "theme_name": "Foodie Paradise",
+      "theme_description": "Culinary innovations and food culture",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What famous chef is credited with starting the farm-to-table movement at Chez Panisse in Berkeley?",
+          "answer": "Alice Waters",
+          "explanation": "Alice Waters pioneered the farm-to-table movement at her Berkeley restaurant Chez Panisse.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which San Francisco bread company is famous for its sourdough?",
+          "options": ["Acme Bread", "Boudin Bakery", "Tartine", "Arizmendi"],
+          "answer": "Boudin Bakery",
+          "explanation": "Boudin Bakery has been making sourdough bread in San Francisco since 1849.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What type of food is Mission-style, originating from San Francisco's Mission District?",
+          "answer": "Burrito",
+          "explanation": "The Mission-style burrito, with its large flour tortilla and specific ingredient arrangement, originated in SF's Mission District.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Ghirardelli chocolate company was founded in San Francisco.",
+          "answer": "true",
+          "explanation": "Domenico Ghirardelli founded his chocolate company in San Francisco during the Gold Rush era.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What type of seafood is served at Fisherman's Wharf, often prepared in a round sourdough bread bowl?",
+          "answer": "Clam chowder",
+          "explanation": "Clam chowder in sourdough bread bowls is an iconic Fisherman's Wharf dish.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What vegetable is primarily grown in Castroville, earning the town the nickname 'Capital of the World' for this crop?",
+          "answer": "Artichoke",
+          "explanation": "Castroville is known as the 'Artichoke Capital of the World' and California grows 99% of America's artichokes, though artichoke is not an official state vegetable.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 6,
+      "theme_name": "Literary Legends",
+      "theme_description": "Authors and books connected to Northern California",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which Beat Generation author wrote 'On the Road' and spent time in San Francisco?",
+          "answer": "Jack Kerouac",
+          "explanation": "Jack Kerouac was a key figure in the Beat Generation and wrote extensively about his San Francisco experiences.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What famous bookstore in San Francisco was a gathering place for Beat poets?",
+          "answer": "City Lights",
+          "explanation": "City Lights Bookstore, founded by Lawrence Ferlinghetti, was central to the Beat movement.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which author wrote 'The Call of the Wild' and was born in San Francisco?",
+          "options": ["Mark Twain", "Jack London", "John Steinbeck", "Joan Didion"],
+          "answer": "Jack London",
+          "explanation": "Jack London was born in San Francisco and wrote many adventure novels including 'The Call of the Wild'.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which Northern California author wrote 'The Joy Luck Club' about Chinese-American families?",
+          "answer": "Amy Tan",
+          "explanation": "Amy Tan, who lives in the Bay Area, wrote this acclaimed novel about Chinese-American mothers and daughters.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Armistead Maupin's 'Tales of the City' series is set in San Francisco.",
+          "answer": "true",
+          "explanation": "'Tales of the City' chronicles life in San Francisco and was originally published as newspaper serials.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which mystery writer created the character Sam Spade and set 'The Maltese Falcon' in San Francisco?",
+          "answer": "Dashiell Hammett",
+          "explanation": "Dashiell Hammett lived in San Francisco and set many of his detective stories there.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 7,
+      "theme_name": "Sports & Recreation",
+      "theme_description": "Teams, athletes, and outdoor adventures",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What baseball team plays at Oracle Park in San Francisco?",
+          "answer": "San Francisco Giants",
+          "explanation": "The Giants moved to San Francisco from New York in 1958 and now play at Oracle Park.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which NFL team plays at Levi's Stadium in Santa Clara?",
+          "options": ["Oakland Raiders", "San Francisco 49ers", "Los Angeles Rams", "San Diego Chargers"],
+          "answer": "San Francisco 49ers",
+          "explanation": "The 49ers moved to Levi's Stadium in Santa Clara in 2014.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What outdoor swimming event takes place annually from Alcatraz Island to the San Francisco shore?",
+          "answer": "Escape from Alcatraz Triathlon",
+          "explanation": "The Escape from Alcatraz Triathlon includes a challenging 1.5-mile swim from the island to the shore.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many times have the San Francisco Giants won the World Series since moving to San Francisco?",
+          "answer": "3",
+          "explanation": "The Giants won the World Series in 2010, 2012, and 2014.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Golden State Warriors play their home games in San Francisco.",
+          "answer": "true",
+          "explanation": "The Warriors moved to Chase Center in San Francisco in 2019.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What annual footrace from San Francisco to Breakers is known as one of the world's largest?",
+          "answer": "Bay to Breakers",
+          "explanation": "Bay to Breakers is a famous 12K race known for its costumes and festive atmosphere.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 8,
+      "theme_name": "Music & Entertainment",
+      "theme_description": "From Summer of Love to modern venues",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What San Francisco neighborhood was the center of the hippie movement in the 1960s?",
+          "answer": "Haight-Ashbury",
+          "explanation": "Haight-Ashbury became synonymous with the counterculture movement and Summer of Love.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which venue was famous for hosting psychedelic rock concerts in the 1960s?",
+          "options": ["The Fillmore", "The Warfield", "Great American Music Hall", "The Independent"],
+          "answer": "The Fillmore",
+          "explanation": "The Fillmore, promoted by Bill Graham, was central to the San Francisco music scene.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What band, fronted by Jerry Garcia, was synonymous with the Grateful Dead?",
+          "answer": "Grateful Dead",
+          "explanation": "The Grateful Dead, led by Jerry Garcia, was the quintessential San Francisco band.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What annual music festival takes place in Golden Gate Park?",
+          "answer": "Outside Lands",
+          "explanation": "Outside Lands is San Francisco's premier music festival held in Golden Gate Park.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Janis Joplin performed at the Monterey Pop Festival in 1967.",
+          "answer": "true",
+          "explanation": "Janis Joplin's performance at Monterey Pop helped launch her to stardom.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What was the name of the 1967 event that defined the hippie movement?",
+          "answer": "Summer of Love",
+          "explanation": "The Summer of Love in 1967 brought thousands of young people to San Francisco.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 9,
+      "theme_name": "Natural Wonders",
+      "theme_description": "Redwoods, coast, and outdoor beauty",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What type of tree can grow to be the tallest in the world and is found in Northern California?",
+          "answer": "Coast redwood",
+          "explanation": "Coast redwoods (Sequoia sempervirens) are the tallest trees on Earth.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which national park protects old-growth redwood forests?",
+          "options": ["Yosemite", "Redwood National Park", "Point Reyes", "Muir Woods"],
+          "answer": "Redwood National Park",
+          "explanation": "Redwood National and State Parks protect 45% of remaining old-growth coast redwoods.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "What is the approximate height in feet of the tallest known redwood tree?",
+          "answer": "380",
+          "explanation": "Hyperion, the tallest known tree, stands at 380.3 feet tall.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What marine sanctuary protects the waters around the Farallon Islands?",
+          "answer": "Greater Farallones National Marine Sanctuary",
+          "explanation": "The Greater Farallones National Marine Sanctuary protects these important breeding islands.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Point Reyes National Seashore is located on the Pacific Plate, not the North American Plate.",
+          "answer": "true",
+          "explanation": "Point Reyes sits on the Pacific Plate and moves northwest relative to the mainland.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What large mammal returns to Northern California beaches to breed and give birth?",
+          "answer": "Elephant seal",
+          "explanation": "Northern elephant seals return to beaches like Año Nuevo for breeding season.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 10,
+      "theme_name": "NorCal Potpourri",
+      "theme_description": "Mixed bag of Northern California trivia",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which university campus is simply known as 'Cal' and houses the Lawrence Berkeley National Laboratory?",
+          "answer": "UC Berkeley",
+          "explanation": "UC Berkeley, founded in 1868, was the original University of California campus and is associated with the nearby national lab.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Northern California city is known as 'The City of Trees'?",
+          "options": ["Sacramento", "Davis", "Chico", "Redding"],
+          "answer": "Sacramento",
+          "explanation": "Sacramento is known as 'The City of Trees' due to its urban forest.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "California's state capitol building is located in San Francisco.",
+          "answer": "false",
+          "explanation": "California's state capitol is in Sacramento, not San Francisco.",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What controversial topic led to the creation of Berkeley's Free Speech Movement in 1964?",
+          "answer": "Civil rights",
+          "explanation": "The Free Speech Movement began when students were banned from political activities on campus.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "What percentage of the world's almonds are grown in California?",
+          "answer": "80",
+          "explanation": "California produces about 80% of the world's almonds, with many grown in the Central Valley.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the nickname for the dense fog that rolls in from the Pacific Ocean?",
+          "answer": "Karl the Fog",
+          "explanation": "San Francisco fog has been affectionately nicknamed 'Karl the Fog' by locals.",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}
