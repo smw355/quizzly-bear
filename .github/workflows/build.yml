@@ -13,8 +13,15 @@ jobs:
     runs-on: ${{ matrix.os }}
     
     strategy:
+      fail-fast: false
       matrix:
-        os: [macos-latest, windows-latest, ubuntu-latest]
+        include:
+          - os: macos-latest
+            platform: mac
+          - os: windows-latest
+            platform: win
+          - os: ubuntu-latest
+            platform: linux
         
     steps:
     - name: Checkout code
@@ -23,12 +30,24 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version: '20'
         cache: 'npm'
         
     - name: Install dependencies
       run: npm ci
       
+    - name: Install Python (for node-gyp on Windows)
+      if: matrix.os == 'windows-latest'
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install system dependencies (Linux)
+      if: matrix.os == 'ubuntu-latest'
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libnss3-dev libatk-bridge2.0-dev libdrm2-dev libxss1 libgconf-2-4 libxrandr2 libasound2-dev libpangocairo-1.0-0 libatk1.0-dev libcairo-gobject2 libgtk-3-dev libgdk-pixbuf2.0-dev
+        
     - name: Build application
       run: npm run build
       
@@ -36,12 +55,18 @@ jobs:
       run: npm run build-electron
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        CSC_IDENTITY_AUTO_DISCOVERY: false
+        
+    - name: List build outputs
+      run: ls -la release/
+      shell: bash
         
     - name: Upload artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
-        name: ${{ matrix.os }}-build
+        name: ${{ matrix.platform }}-build
         path: release/
+        retention-days: 7
         
   release:
     needs: build
@@ -53,15 +78,45 @@ jobs:
       uses: actions/checkout@v4
       
     - name: Download all artifacts
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
+      with:
+        path: artifacts/
+        
+    - name: List downloaded artifacts
+      run: find artifacts/ -type f -name "*.dmg" -o -name "*.exe" -o -name "*.AppImage" | head -20
+      
+    - name: Prepare release files
+      run: |
+        mkdir -p release-files
+        find artifacts/ -name "*.dmg" -exec cp {} release-files/ \;
+        find artifacts/ -name "*.exe" -exec cp {} release-files/ \;
+        find artifacts/ -name "*.AppImage" -exec cp {} release-files/ \;
+        ls -la release-files/
       
     - name: Create Release
-      uses: softprops/action-gh-release@v1
+      uses: softprops/action-gh-release@v2
       with:
-        files: |
-          macos-latest-build/*
-          windows-latest-build/*
-          ubuntu-latest-build/*
+        files: release-files/*
+        draft: false
+        prerelease: false
         generate_release_notes: true
+        body: |
+          🐻 **Quizzly Bear Release**
+          
+          Cross-platform builds for Mac, Windows, and Linux.
+          
+          **Downloads:**
+          - 🍎 Mac: `.dmg` files
+          - 🪟 Windows: `.exe` installer  
+          - 🐧 Linux: `.AppImage` file
+          
+          **What's included:**
+          - Complete offline pub quiz system
+          - Team management with persistent statistics
+          - 5 question types and professional host controls
+          - Built-in quiz packs ready to use
+          
+          ---
+          **Made with 🐻 and ☕ for quiz hosts everywhere**
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
