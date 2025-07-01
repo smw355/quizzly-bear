@@ -1,0 +1,528 @@
+{
+  "name": "2019 – The Year That Was",
+  "version": "1.0",
+  "author": "Obot",
+  "description": "A challenging, in-depth look at the events, pop culture, sports, science, and surprises that defined 2019. All questions are medium or hard—no easy points here!",
+  "rounds": [
+    {
+      "round_number": 1,
+      "theme_name": "Streaming into the Spotlight",
+      "theme_description": "Major TV, film, and streaming moments of 2019.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which HBO series concluded in 2019 with a controversial final season that divided fans and critics alike?",
+          "answer": "Game of Thrones",
+          "explanation": "The eighth and final season of 'Game of Thrones' aired in 2019, sparking widespread debate over its ending.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which streaming service released the miniseries ‘When They See Us,’ based on the Central Park Five case, in 2019?",
+          "options": ["Hulu", "Netflix", "Amazon Prime", "Apple TV+"],
+          "answer": "Netflix",
+          "explanation": "Ava DuVernay’s ‘When They See Us’ premiered on Netflix in May 2019.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "The Mandalorian was the first original series released on Disney+ in 2019.",
+          "answer": "true",
+          "explanation": "'The Mandalorian' was the flagship original series at Disney+'s launch in November 2019.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many Emmy Awards did ‘Fleabag’ win at the 2019 Primetime Emmy Awards?",
+          "answer": "6",
+          "explanation": "'Fleabag' won six Emmys, including Outstanding Comedy Series and Lead Actress for Phoebe Waller-Bridge.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Who played the title character in the 2019 Netflix series ‘The Witcher’?",
+          "answer": "Henry Cavill",
+          "explanation": "Henry Cavill starred as Geralt of Rivia in the fantasy series 'The Witcher.'",
+          "points": 1
+        },
+        {
+          "type": "image",
+          "question": "What 2019 film is shown in this image?",
+          "image_path": "/images/us-red-jumpsuit.jpg",
+          "answer": "Us",
+          "explanation": "Jordan Peele’s horror film 'Us' was released in 2019 and became a cultural phenomenon.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 2,
+      "theme_name": "On the World Stage",
+      "theme_description": "International news events and global happenings.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which European city’s iconic cathedral suffered a devastating fire in April 2019?",
+          "answer": "Paris",
+          "explanation": "The Notre Dame Cathedral in Paris was severely damaged by fire in April 2019.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Who became the Prime Minister of the United Kingdom in July 2019?",
+          "options": ["Theresa May", "Boris Johnson", "Jeremy Corbyn", "David Cameron"],
+          "answer": "Boris Johnson",
+          "explanation": "Boris Johnson succeeded Theresa May as UK Prime Minister in July 2019.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "In 2019, the Amazon rainforest experienced its lowest number of fires in a decade.",
+          "answer": "false",
+          "explanation": "2019 saw a dramatic increase in Amazon rainforest fires, drawing global concern.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many days did the 2019 Hong Kong protests last, from June to December?",
+          "answer": "200",
+          "explanation": "The protests spanned roughly 200 days, making them one of the longest-running in Hong Kong’s history.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which country officially left the Intermediate-Range Nuclear Forces Treaty with the United States in August 2019?",
+          "answer": "Russia",
+          "explanation": "Both the U.S. and Russia withdrew from the INF Treaty in 2019.",
+          "points": 1
+        },
+        {
+          "type": "image",
+          "question": "What protest movement is shown in this image from 2019?",
+          "image_path": "/images/yellow-vests-france.jpg",
+          "answer": "Yellow Vests (Gilets Jaunes)",
+          "explanation": "The Yellow Vests movement in France continued to make headlines in 2019.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 3,
+      "theme_name": "Chart Toppers & Earworms",
+      "theme_description": "Music hits, artists, and trends that defined 2019.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which song by Lil Nas X broke the record for longest-running number one on the Billboard Hot 100 in 2019?",
+          "answer": "Old Town Road",
+          "explanation": "'Old Town Road' spent 19 weeks at number one, a new record.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Who won the Grammy for Album of the Year in 2019 (awarded in early 2020)?",
+          "options": ["Billie Eilish", "Ariana Grande", "Lizzo", "Taylor Swift"],
+          "answer": "Billie Eilish",
+          "explanation": "Billie Eilish’s 'When We All Fall Asleep, Where Do We Go?' won Album of the Year.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "BTS became the first K-pop group to perform on Saturday Night Live in 2019.",
+          "answer": "true",
+          "explanation": "BTS made their SNL debut in April 2019.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many Grammy Awards did Billie Eilish win at the 2020 ceremony for her 2019 work?",
+          "answer": "5",
+          "explanation": "Billie Eilish won five major Grammys, including Album, Record, and Song of the Year.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which Spanish-language song by Rosalía won Best New Latin Artist at the 2019 MTV VMAs?",
+          "answer": "Con Altura",
+          "explanation": "'Con Altura' by Rosalía and J Balvin was a major hit and won at the VMAs.",
+          "points": 1
+        },
+        {
+          "type": "image",
+          "question": "Who is this artist holding multiple Grammy trophies in 2019?",
+          "image_path": "/images/billie-eilish-grammys.jpg",
+          "answer": "Billie Eilish",
+          "explanation": "Billie Eilish dominated the 2020 Grammys for her 2019 album.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 4,
+      "theme_name": "Game Changers",
+      "theme_description": "Sports milestones, tournaments, and athletes.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which country won the 2019 Cricket World Cup in a dramatic final decided by a Super Over?",
+          "answer": "England",
+          "explanation": "England won their first Cricket World Cup after a tie-breaking Super Over against New Zealand.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Who was named NBA Finals MVP after leading the Toronto Raptors to their first championship in 2019?",
+          "options": ["Kyle Lowry", "Kawhi Leonard", "Pascal Siakam", "Marc Gasol"],
+          "answer": "Kawhi Leonard",
+          "explanation": "Kawhi Leonard was instrumental in the Raptors’ victory.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "The U.S. Women’s National Soccer Team won their third FIFA Women’s World Cup in 2019.",
+          "answer": "false",
+          "explanation": "2019 marked their fourth World Cup win, not third.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many major golf championships had Tiger Woods won after his 2019 Masters victory?",
+          "answer": "15",
+          "explanation": "Tiger Woods’ 2019 Masters win was his 15th major title.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which tennis player won both the Australian Open and Wimbledon men’s singles titles in 2019?",
+          "answer": "Novak Djokovic",
+          "explanation": "Djokovic won both tournaments in 2019.",
+          "points": 1
+        },
+        {
+          "type": "image",
+          "question": "Who is this basketball player holding the NBA Finals MVP trophy in 2019?",
+          "image_path": "/images/kawhi-leonard-mvp.jpg",
+          "answer": "Kawhi Leonard",
+          "explanation": "Leonard was the 2019 NBA Finals MVP for the Toronto Raptors.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 5,
+      "theme_name": "Tech & Tomorrow",
+      "theme_description": "Scientific breakthroughs, tech launches, and discoveries.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What astronomical object was imaged for the first time ever in April 2019, making global headlines?",
+          "answer": "Black hole",
+          "explanation": "The Event Horizon Telescope captured the first image of a black hole in the galaxy M87.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which company became the world’s most valuable publicly traded company in 2019, briefly surpassing $1 trillion in market value?",
+          "options": ["Microsoft", "Apple", "Amazon", "Saudi Aramco"],
+          "answer": "Saudi Aramco",
+          "explanation": "Saudi Aramco’s IPO made it the world’s most valuable company in December 2019.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "In 2019, Google announced the achievement of ‘quantum supremacy.’",
+          "answer": "true",
+          "explanation": "Google claimed its quantum computer performed a calculation faster than any classical computer.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many satellites did SpaceX launch in its first Starlink mission in May 2019?",
+          "answer": "60",
+          "explanation": "The first Starlink launch deployed 60 satellites.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which foldable smartphone, released in 2019, was delayed due to screen durability issues?",
+          "answer": "Samsung Galaxy Fold",
+          "explanation": "The Galaxy Fold’s launch was postponed after early review units broke.",
+          "points": 1
+        },
+        {
+          "type": "image",
+          "question": "What is this famous astronomical image from 2019?",
+          "image_path": "/images/black-hole-m87.jpg",
+          "answer": "First image of a black hole",
+          "explanation": "This is the first-ever image of a black hole, released in April 2019.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 6,
+      "theme_name": "Viral Moments",
+      "theme_description": "Memes, social media trends, and internet phenomena.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What simple photo became the most-liked Instagram post ever in January 2019, surpassing Kylie Jenner’s record?",
+          "answer": "An egg",
+          "explanation": "The ‘World Record Egg’ became a viral sensation, amassing over 50 million likes.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which viral challenge involved people dancing to Drake’s ‘In My Feelings’ outside moving cars, but was officially discouraged in 2019 due to safety concerns?",
+          "options": ["Ice Bucket Challenge", "Mannequin Challenge", "Kiki Challenge", "Harlem Shake"],
+          "answer": "Kiki Challenge",
+          "explanation": "The Kiki Challenge went viral but was criticized for its dangers.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "The ‘Storm Area 51’ Facebook event in 2019 resulted in thousands of people actually storming the military base.",
+          "answer": "false",
+          "explanation": "While millions RSVP’d, only a few showed up, and no one stormed the base.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many people marked themselves as ‘going’ to the ‘Storm Area 51’ event on Facebook?",
+          "answer": "2 million",
+          "explanation": "Over 2 million people RSVP’d to the viral event.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which app, popularized in 2019, uses AI to age or de-age users’ faces in photos?",
+          "answer": "FaceApp",
+          "explanation": "FaceApp’s aging filter went viral in 2019.",
+          "points": 1
+        },
+        {
+          "type": "image",
+          "question": "What viral 2019 phenomenon is this image of a brown egg associated with?",
+          "image_path": "/images/world-record-egg.jpg",
+          "answer": "World Record Egg",
+          "explanation": "The egg became the most-liked Instagram post ever in 2019.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 7,
+      "theme_name": "Blockbusters & Box Office",
+      "theme_description": "Major movies, cinematic records, and film industry news.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which film became the highest-grossing movie of all time in 2019, surpassing ‘Avatar’?",
+          "answer": "Avengers: Endgame",
+          "explanation": "'Avengers: Endgame' grossed over $2.7 billion worldwide.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Who won the Academy Award for Best Director at the 2019 Oscars (for films released in 2018)?",
+          "options": ["Alfonso Cuarón", "Spike Lee", "Yorgos Lanthimos", "Adam McKay"],
+          "answer": "Alfonso Cuarón",
+          "explanation": "Cuarón won for 'Roma' at the 2019 Oscars.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "The 2019 film ‘Parasite’ was the first South Korean movie to win the Palme d’Or at Cannes.",
+          "answer": "true",
+          "explanation": "'Parasite' made history at Cannes in 2019.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many Oscars did ‘Parasite’ win at the 2020 Academy Awards for its 2019 release?",
+          "answer": "4",
+          "explanation": "'Parasite' won Best Picture, Director, Original Screenplay, and International Feature.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which animated film won the Academy Award for Best Animated Feature in 2019?",
+          "answer": "Spider-Man: Into the Spider-Verse",
+          "explanation": "The film won at the 2019 Oscars for 2018 releases.",
+          "points": 1
+        },
+        {
+          "type": "image",
+          "question": "What film is shown in this image of superheroes and a purple-skinned villain?",
+          "image_path": "/images/avengers-endgame.jpg",
+          "answer": "Avengers: Endgame",
+          "explanation": "The film was the biggest box office hit of 2019.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 8,
+      "theme_name": "Leaders & Legends",
+      "theme_description": "Influential figures, awards, and notable passings.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Who was awarded the 2019 Nobel Peace Prize for efforts to resolve the border conflict with Eritrea?",
+          "answer": "Abiy Ahmed",
+          "explanation": "Ethiopian Prime Minister Abiy Ahmed won the Nobel Peace Prize in 2019.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which fashion designer, known for his work at Chanel, passed away in February 2019?",
+          "options": ["Karl Lagerfeld", "Giorgio Armani", "Jean-Paul Gaultier", "Tom Ford"],
+          "answer": "Karl Lagerfeld",
+          "explanation": "Lagerfeld was a legendary figure in the fashion world.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "In 2019, Angela Merkel announced her resignation as Chancellor of Germany, effective immediately.",
+          "answer": "false",
+          "explanation": "Merkel announced she would not seek re-election, but did not resign in 2019.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many years had Emperor Akihito reigned before abdicating the Japanese throne in 2019?",
+          "answer": "30",
+          "explanation": "Akihito reigned from 1989 to 2019.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Who became the first woman to win the Ballon d’Or Féminin (Women’s Ballon d’Or) in 2019?",
+          "answer": "Megan Rapinoe",
+          "explanation": "Rapinoe was honored for her achievements in women’s soccer.",
+          "points": 1
+        },
+        {
+          "type": "image",
+          "question": "Who is this man holding a Nobel medal with an Ethiopian flag in the background?",
+          "image_path": "/images/abiy-ahmed-nobel.jpg",
+          "answer": "Abiy Ahmed",
+          "explanation": "Ahmed received the Nobel Peace Prize in 2019.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 9,
+      "theme_name": "Changing the Game",
+      "theme_description": "Social movements, activism, and cultural shifts.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which Swedish activist delivered a powerful speech at the UN Climate Action Summit in 2019, sparking global youth protests?",
+          "answer": "Greta Thunberg",
+          "explanation": "Thunberg’s ‘How dare you?’ speech became a rallying cry for climate action.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which U.S. state became the first to ban the sale of new fur products in 2019?",
+          "options": ["New York", "California", "Oregon", "Washington"],
+          "answer": "California",
+          "explanation": "California passed the landmark law in October 2019.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "The ‘OK Boomer’ meme became a popular retort to dismiss out-of-touch attitudes in 2019.",
+          "answer": "true",
+          "explanation": "The phrase went viral as a generational catchphrase.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many countries participated in the Global Climate Strike in September 2019?",
+          "answer": "150",
+          "explanation": "Over 150 countries joined the climate protests.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which U.S. city hosted the first-ever WorldPride event in the United States in 2019?",
+          "answer": "New York City",
+          "explanation": "NYC hosted WorldPride to mark the 50th anniversary of Stonewall.",
+          "points": 1
+        },
+        {
+          "type": "image",
+          "question": "Who is this young woman holding a ‘Skolstrejk för klimatet’ sign?",
+          "image_path": "/images/greta-thunberg-strike.jpg",
+          "answer": "Greta Thunberg",
+          "explanation": "Thunberg became the face of youth climate activism in 2019.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 10,
+      "theme_name": "The Year in Review",
+      "theme_description": "Miscellaneous events, quirky facts, and surprising headlines from 2019.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which Japanese city hosted the G20 summit in June 2019?",
+          "answer": "Osaka",
+          "explanation": "The G20 leaders met in Osaka, Japan, in June 2019.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which company’s CEO stepped down in 2019 after a scandal involving data privacy and security breaches?",
+          "options": ["Facebook", "Google", "Twitter", "Equifax"],
+          "answer": "Google",
+          "explanation": "Google co-founders Larry Page and Sergey Brin stepped down from their roles at Alphabet in 2019.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "In 2019, the kilogram was redefined based on a physical object kept in France.",
+          "answer": "false",
+          "explanation": "The kilogram was redefined using fundamental constants, ending reliance on a physical object.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many years had it been since the last total solar eclipse visible from South America before the one in July 2019?",
+          "answer": "25",
+          "explanation": "The previous total solar eclipse visible from South America was in 1994.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which video game won Game of the Year at The Game Awards 2019?",
+          "answer": "Sekiro: Shadows Die Twice",
+          "explanation": "'Sekiro: Shadows Die Twice' was awarded Game of the Year.",
+          "points": 1
+        },
+        {
+          "type": "image",
+          "question": "What is the name of this 2019 video game featuring a samurai warrior?",
+          "image_path": "/images/sekiro-samurai.jpg",
+          "answer": "Sekiro: Shadows Die Twice",
+          "explanation": "The game won top honors at The Game Awards 2019.",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "name": "Harry Potter: The Early Years Quiz Pack",
+  "version": "1.0",
+  "author": "Obot (Acorn Labs)",
+  "description": "A magical quiz pack covering the first three Harry Potter books. Test your knowledge of Hogwarts, its students, and the wizarding world up through Prisoner of Azkaban.",
+  "rounds": [
+    {
+      "round_number": 1,
+      "theme_name": "First Impressions",
+      "theme_description": "Moments and details from the beginnings of Harry's magical journey.",
+      "questions": [
+        {"type": "text_answer", "question": "What is the name of the train that takes students to Hogwarts?", "answer": "Hogwarts Express", "explanation": "The Hogwarts Express departs from King's Cross Station, Platform 9¾, and brings students to Hogwarts each year.", "points": 1},
+        {"type": "multiple_choice", "question": "Which house does Draco Malfoy get sorted into?", "options": ["Gryffindor", "Slytherin", "Ravenclaw", "Hufflepuff"], "answer": "Slytherin", "explanation": "Draco Malfoy is sorted into Slytherin, known for ambition and cunning.", "points": 1},
+        {"type": "true_false", "question": "Harry's first friend at Hogwarts is Ron Weasley.", "answer": "true", "explanation": "Harry meets Ron on the train and they quickly become friends.", "points": 1},
+        {"type": "closest_number", "question": "How old is Harry when he receives his Hogwarts letter? (in years)", "answer": "11", "explanation": "Harry turns 11 just before receiving his letter, the standard age for first-year students.", "scoring_type": "closest", "points": 1},
+        {"type": "text_answer", "question": "What is the last name of the family Harry lives with before Hogwarts?", "answer": "Dursley", "explanation": "Harry lives with his aunt, uncle, and cousin—the Dursleys—at 4 Privet Drive.", "points": 1},
+        {"type": "multiple_choice", "question": "Who delivers Harry's Hogwarts letter in person?", "options": ["Professor McGonagall", "Hagrid", "Dumbledore", "Sirius Black"], "answer": "Hagrid", "explanation": "Hagrid personally delivers Harry's letter after the Dursleys try to keep it from him.", "points": 1}
+      ]
+    },
+    {
+      "round_number": 2,
+      "theme_name": "Unusual Pets",
+      "theme_description": "Magical creatures and companions at Hogwarts.",
+      "questions": [
+        {"type": "text_answer", "question": "What is the name of Hermione's cat, introduced in book 3?", "answer": "Crookshanks", "explanation": "Crookshanks is Hermione's squashed-faced, clever cat, introduced in Prisoner of Azkaban.", "points": 1},
+        {"type": "multiple_choice", "question": "What type of animal is Scabbers?", "options": ["Owl", "Rat", "Toad", "Cat"], "answer": "Rat", "explanation": "Scabbers is Ron's pet rat, who turns out to be more than he seems.", "points": 1},
+        {"type": "true_false", "question": "Hedwig is a snowy owl.", "answer": "true", "explanation": "Harry's loyal pet, Hedwig, is a snowy owl given to him by Hagrid.", "points": 1},
+        {"type": "closest_number", "question": "How many heads does Fluffy, the dog guarding the trapdoor, have?", "answer": "3", "explanation": "Fluffy is a giant three-headed dog owned by Hagrid.", "scoring_type": "closest", "points": 1},
+        {"type": "text_answer", "question": "What is the name of Hagrid's pet dragon in book 1?", "answer": "Norbert", "explanation": "Norbert is a Norwegian Ridgeback dragon hatched by Hagrid in Sorcerer's Stone.", "points": 1},
+        {"type": "multiple_choice", "question": "What kind of creature is Trevor?", "options": ["Toad", "Cat", "Owl", "Rat"], "answer": "Toad", "explanation": "Trevor is Neville Longbottom's pet toad.", "points": 1}
+      ]
+    },
+    {
+      "round_number": 3,
+      "theme_name": "Magical Mishaps",
+      "theme_description": "Spells gone wrong and magical accidents.",
+      "questions": [
+        {"type": "text_answer", "question": "What spell does Ron try to use to turn Scabbers yellow?", "answer": "Sunshine, daisies, butter mellow", "explanation": "Ron attempts a rhyme, not a real spell, to turn Scabbers yellow on the train.", "points": 1},
+        {"type": "multiple_choice", "question": "What happens when Harry tries to use Floo Powder for the first time?", "options": ["He arrives at Hogwarts", "He ends up in Knockturn Alley", "He loses his glasses", "He meets Dobby"], "answer": "He ends up in Knockturn Alley", "explanation": "Harry mispronounces 'Diagon Alley' and ends up in the dark Knockturn Alley.", "points": 1},
+        {"type": "true_false", "question": "Hermione accidentally turns herself into a cat in book 2.", "answer": "true", "explanation": "Hermione uses a hair from Millicent Bulstrode's cat in Polyjuice Potion, turning herself part-cat.", "points": 1},
+        {"type": "closest_number", "question": "How many points does Gryffindor lose when Harry, Hermione, and Neville are caught out of bed in book 1?", "answer": "150", "explanation": "They lose 50 points each, totaling 150 points for Gryffindor.", "scoring_type": "closest", "points": 1},
+        {"type": "text_answer", "question": "Who gets turned into a ferret by Professor Moody (Barty Crouch Jr.)? (Trick: Only up to book 3)", "answer": "No one", "explanation": "This event happens in book 4, not in the first three books.", "points": 1},
+        {"type": "multiple_choice", "question": "What does Neville receive from Professor McGonagall after forgetting the password?", "options": ["A detention", "A Howler", "A Remembrall", "A Chocolate Frog"], "answer": "A Howler", "explanation": "Neville receives a Howler from his grandmother for forgetting the password to Gryffindor Tower.", "points": 1}
+      ]
+    },
+    {
+      "round_number": 4,
+      "theme_name": "School Rules & Rebels",
+      "theme_description": "Breaking and following the rules at Hogwarts.",
+      "questions": [
+        {"type": "text_answer", "question": "What is the name of the caretaker who patrols Hogwarts with his cat?", "answer": "Argus Filch", "explanation": "Argus Filch is the cantankerous caretaker, often accompanied by his cat, Mrs. Norris.", "points": 1},
+        {"type": "multiple_choice", "question": "Which corridor is forbidden in Harry's first year?", "options": ["Third floor", "Fourth floor", "Dungeon", "Seventh floor"], "answer": "Third floor", "explanation": "The third-floor corridor is forbidden because it hides the trapdoor to the Sorcerer's Stone.", "points": 1},
+        {"type": "true_false", "question": "Fred and George Weasley give Harry the Marauder's Map in book 3.", "answer": "true", "explanation": "The twins give Harry the Marauder's Map so he can sneak into Hogsmeade.", "points": 1},
+        {"type": "closest_number", "question": "How many house points does Dumbledore award Neville at the end of book 1?", "answer": "10", "explanation": "Neville receives 10 points for standing up to his friends, helping Gryffindor win the House Cup.", "scoring_type": "closest", "points": 1},
+        {"type": "text_answer", "question": "What magical object allows Harry to become invisible?", "answer": "Invisibility Cloak", "explanation": "Harry receives the Invisibility Cloak as a Christmas present in his first year.", "points": 1},
+        {"type": "multiple_choice", "question": "Who is the strict head of Gryffindor House?", "options": ["Professor Flitwick", "Professor McGonagall", "Professor Snape", "Professor Sprout"], "answer": "Professor McGonagall", "explanation": "Professor McGonagall is the head of Gryffindor House and Transfiguration teacher.", "points": 1}
+      ]
+    },
+    {
+      "round_number": 5,
+      "theme_name": "Quidditch & Competition",
+      "theme_description": "Sports, games, and rivalries at Hogwarts.",
+      "questions": [
+        {"type": "text_answer", "question": "What position does Harry play on the Gryffindor Quidditch team?", "answer": "Seeker", "explanation": "Harry is the youngest Seeker in a century, responsible for catching the Golden Snitch.", "points": 1},
+        {"type": "multiple_choice", "question": "Which ball is used to score points in Quidditch?", "options": ["Bludger", "Snitch", "Quaffle", "Gobstone"], "answer": "Quaffle", "explanation": "The Quaffle is used to score goals, worth 10 points each.", "points": 1},
+        {"type": "true_false", "question": "Slytherin wins the Quidditch Cup in Harry's first year.", "answer": "false", "explanation": "Gryffindor wins the House Cup, but the Quidditch Cup is not awarded in book 1.", "points": 1},
+        {"type": "closest_number", "question": "How many players are on a Quidditch team?", "answer": "7", "explanation": "Each Quidditch team has 7 players: 3 Chasers, 2 Beaters, 1 Keeper, and 1 Seeker.", "scoring_type": "closest", "points": 1},
+        {"type": "text_answer", "question": "Who is the captain of the Gryffindor Quidditch team in book 1?", "answer": "Oliver Wood", "explanation": "Oliver Wood is the dedicated captain and Keeper for Gryffindor.", "points": 1},
+        {"type": "multiple_choice", "question": "Which team is Gryffindor's main rival in Quidditch?", "options": ["Hufflepuff", "Slytherin", "Ravenclaw", "Durmstrang"], "answer": "Slytherin", "explanation": "Gryffindor and Slytherin have a fierce rivalry, especially in Quidditch.", "points": 1}
+      ]
+    },
+    {
+      "round_number": 6,
+      "theme_name": "Hidden Chambers & Secrets",
+      "theme_description": "Mysterious places and secret passages at Hogwarts.",
+      "questions": [
+        {"type": "text_answer", "question": "What is the name of the chamber beneath the trapdoor where the Philosopher's Stone is hidden?", "answer": "The chamber beneath the trapdoor", "explanation": "The Stone is hidden in a chamber beneath the trapdoor, protected by magical obstacles set by Hogwarts staff.", "points": 1},
+        {"type": "multiple_choice", "question": "What creature is hidden in the Chamber of Secrets?", "options": ["Basilisk", "Acromantula", "Dragon", "Phoenix"], "answer": "Basilisk", "explanation": "The Chamber of Secrets houses a deadly Basilisk controlled by the Heir of Slytherin.", "points": 1},
+        {"type": "true_false", "question": "The Marauder's Map shows every person at Hogwarts.", "answer": "true", "explanation": "The Marauder's Map reveals the location of everyone in the castle, including secret passages.", "points": 1},
+        {"type": "closest_number", "question": "How many secret passages out of Hogwarts are shown on the Marauder's Map?", "answer": "7", "explanation": "The Marauder's Map shows seven secret passages leading out of Hogwarts.", "scoring_type": "closest", "points": 1},
+        {"type": "text_answer", "question": "What is the password to Dumbledore's office in book 2?", "answer": "Sherbet Lemon", "explanation": "Dumbledore's office password in Chamber of Secrets is 'Sherbet Lemon,' a Muggle sweet.", "points": 1},
+        {"type": "multiple_choice", "question": "Who opens the Chamber of Secrets in book 2?", "options": ["Harry Potter", "Tom Riddle", "Ginny Weasley", "Draco Malfoy"], "answer": "Ginny Weasley", "explanation": "Ginny Weasley, under the influence of Tom Riddle's diary, opens the Chamber of Secrets.", "points": 1}
+      ]
+    },
+    {
+      "round_number": 7,
+      "theme_name": "Teachers & Lessons",
+      "theme_description": "Professors, classes, and magical education at Hogwarts.",
+      "questions": [
+        {"type": "text_answer", "question": "Who teaches Potions at Hogwarts?", "answer": "Severus Snape", "explanation": "Professor Snape is the Potions Master and head of Slytherin House.", "points": 1},
+        {"type": "multiple_choice", "question": "Which subject does Professor Sprout teach?", "options": ["Herbology", "Charms", "Transfiguration", "Defense Against the Dark Arts"], "answer": "Herbology", "explanation": "Professor Sprout is the Herbology teacher and head of Hufflepuff House.", "points": 1},
+        {"type": "true_false", "question": "Professor Lupin teaches Defense Against the Dark Arts in book 3.", "answer": "true", "explanation": "Remus Lupin is the popular Defense Against the Dark Arts teacher in Prisoner of Azkaban.", "points": 1},
+        {"type": "closest_number", "question": "How many different Defense Against the Dark Arts teachers has Harry had by the end of book 3?", "answer": "3", "explanation": "Harry has had three: Quirrell, Lockhart, and Lupin.", "scoring_type": "closest", "points": 1},
+        {"type": "text_answer", "question": "Who teaches Transfiguration?", "answer": "Minerva McGonagall", "explanation": "Professor McGonagall is the strict but fair Transfiguration teacher.", "points": 1},
+        {"type": "multiple_choice", "question": "Which teacher is revealed to be a werewolf?", "options": ["Professor Snape", "Professor Lupin", "Professor Quirrell", "Professor Flitwick"], "answer": "Professor Lupin", "explanation": "Remus Lupin's secret is revealed in Prisoner of Azkaban.", "points": 1}
+      ]
+    },
+    {
+      "round_number": 8,
+      "theme_name": "Family & Friendship",
+      "theme_description": "Bonds, backgrounds, and relationships in the wizarding world.",
+      "questions": [
+        {"type": "text_answer", "question": "What is Ron's youngest sister's name?", "answer": "Ginny", "explanation": "Ginny Weasley is Ron's only sister and the youngest Weasley sibling.", "points": 1},
+        {"type": "multiple_choice", "question": "Who is Harry's godfather, introduced in book 3?", "options": ["Remus Lupin", "Sirius Black", "Arthur Weasley", "Cornelius Fudge"], "answer": "Sirius Black", "explanation": "Sirius Black is revealed to be Harry's godfather in Prisoner of Azkaban.", "points": 1},
+        {"type": "true_false", "question": "Hermione is Muggle-born.", "answer": "true", "explanation": "Hermione's parents are both non-magical dentists.", "points": 1},
+        {"type": "closest_number", "question": "How many Weasley siblings are there (including Ron)?", "answer": "7", "explanation": "There are seven Weasley children: Bill, Charlie, Percy, Fred, George, Ron, and Ginny.", "scoring_type": "closest", "points": 1},
+        {"type": "text_answer", "question": "What is Hermione's parents' profession?", "answer": "Dentists", "explanation": "Hermione's parents are both dentists, a fact she mentions several times.", "points": 1},
+        {"type": "multiple_choice", "question": "Who is Percy Weasley's girlfriend in book 3?", "options": ["Penelope Clearwater", "Cho Chang", "Lavender Brown", "Angelina Johnson"], "answer": "Penelope Clearwater", "explanation": "Penelope Clearwater is a Ravenclaw prefect and Percy's girlfriend.", "points": 1}
+      ]
+    },
+    {
+      "round_number": 9,
+      "theme_name": "Dark Arts & Dangers",
+      "theme_description": "Villains, curses, and magical threats from the first three books.",
+      "questions": [
+        {"type": "text_answer", "question": "What is the name of the dark wizard who killed Harry's parents?", "answer": "Voldemort", "explanation": "Lord Voldemort, also known as He-Who-Must-Not-Be-Named, is the main antagonist.", "points": 1},
+        {"type": "multiple_choice", "question": "What creature petrifies students in book 2?", "options": ["Basilisk", "Dementor", "Werewolf", "Acromantula"], "answer": "Basilisk", "explanation": "The Basilisk's gaze causes petrification in Chamber of Secrets.", "points": 1},
+        {"type": "true_false", "question": "Dementors guard the entrance to the Chamber of Secrets.", "answer": "false", "explanation": "Dementors guard Azkaban and later Hogwarts, not the Chamber of Secrets.", "points": 1},
+        {"type": "closest_number", "question": "How many times does Harry face Voldemort directly in the first three books?", "answer": "3", "explanation": "Harry faces Voldemort in each of the first three books: the Stone, the diary, and the Shrieking Shack.", "scoring_type": "closest", "points": 1},
+        {"type": "text_answer", "question": "What is the incantation for the spell that repels Dementors?", "answer": "Expecto Patronum", "explanation": "'Expecto Patronum' conjures a Patronus to ward off Dementors, taught to Harry by Lupin.", "points": 1},
+        {"type": "multiple_choice", "question": "Who is revealed to be the true owner of Scabbers?", "options": ["Ron Weasley", "Percy Weasley", "Peter Pettigrew", "Sirius Black"], "answer": "Peter Pettigrew", "explanation": "Scabbers is actually Peter Pettigrew, an Animagus hiding from the wizarding world.", "points": 1}
+      ]
+    },
+    {
+      "round_number": 10,
+      "theme_name": "Wit Beyond Measure",
+      "theme_description": "Riddles, cleverness, and magical trivia from the first three books.",
+      "questions": [
+        {"type": "text_answer", "question": "What is the name of the ghost who haunts the girls' bathroom?", "answer": "Moaning Myrtle", "explanation": "Moaning Myrtle haunts a bathroom at Hogwarts and plays a key role in Chamber of Secrets.", "points": 1},
+        {"type": "multiple_choice", "question": "Which of these plants helps Harry breathe underwater in the first three books?", "options": ["Gillyweed", "Mandrake", "Devil's Snare", "Bubotuber"], "answer": "None", "explanation": "Gillyweed is introduced in book 4, not in the first three books.", "points": 1},
+        {"type": "true_false", "question": "The Sorting Hat once belonged to Godric Gryffindor.", "answer": "true", "explanation": "The Sorting Hat originally belonged to Godric Gryffindor and was enchanted to sort students.", "points": 1},
+        {"type": "closest_number", "question": "How many staircases are there at Hogwarts?", "answer": "142", "explanation": "Hogwarts is famous for its 142 shifting staircases.", "scoring_type": "closest", "points": 1},
+        {"type": "text_answer", "question": "What is the name of the wizarding village near Hogwarts?", "answer": "Hogsmeade", "explanation": "Hogsmeade is the only all-wizarding village in Britain, visited by students from third year on.", "points": 1},
+        {"type": "multiple_choice", "question": "Which of these is NOT a password to Gryffindor Tower in the first three books?", "options": ["Caput Draconis", "Fortuna Major", "Sherbet Lemon", "Pig Snout"], "answer": "Sherbet Lemon", "explanation": "'Sherbet Lemon' is Dumbledore's office password, not for Gryffindor Tower.", "points": 1}
+      ]
+    }
+  ]
+}
