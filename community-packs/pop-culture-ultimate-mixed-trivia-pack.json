@@ -1,0 +1,528 @@
+{
+  "name": "Pop Culture & Fun: The Ultimate Mixed Trivia Pack",
+  "version": "1.0",
+  "author": "Obot",
+  "description": "A lively quiz pack spanning music, gaming, internet culture, and general knowledge. Each round explores a different fan-favorite topic, from Green Day to Minecraft to memes and more!",
+  "rounds": [
+    {
+      "round_number": 1,
+      "theme_name": "Punk Rock Pulse",
+      "theme_description": "Questions inspired by the music and legacy of Green Day.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What is the name of Green Day's breakthrough 1994 album that includes the hits 'Basket Case' and 'When I Come Around'?",
+          "answer": "Dookie",
+          "explanation": "Green Day's 'Dookie' was a massive success and brought punk rock into the mainstream in the 1990s.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Green Day song begins with the lyrics, 'Do you have the time to listen to me whine'?",
+          "options": ["Basket Case", "Good Riddance", "American Idiot", "Holiday"],
+          "answer": "Basket Case",
+          "explanation": "'Basket Case' is one of Green Day's most iconic songs, opening with those memorable lyrics.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Green Day's lead singer is Billie Joe Armstrong.",
+          "answer": "true",
+          "explanation": "Billie Joe Armstrong is the frontman and primary songwriter for Green Day.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "In what year was Green Day inducted into the Rock and Roll Hall of Fame?",
+          "answer": "2015",
+          "explanation": "Green Day was inducted in 2015, recognizing their influence on modern rock.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which Green Day album features the song 'American Idiot'?",
+          "answer": "American Idiot",
+          "explanation": "The album 'American Idiot' was released in 2004 and became a cultural phenomenon.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which instrument does Mike Dirnt play in Green Day?",
+          "options": ["Drums", "Bass Guitar", "Lead Guitar", "Keyboard"],
+          "answer": "Bass Guitar",
+          "explanation": "Mike Dirnt is Green Day's bassist and provides backing vocals.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 2,
+      "theme_name": "Grand Line Adventures",
+      "theme_description": "Set sail with questions about the world of One Piece.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What is the name of the main protagonist in One Piece?",
+          "answer": "Monkey D. Luffy",
+          "explanation": "Luffy is the rubber-powered captain of the Straw Hat Pirates.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which fruit did Luffy eat to gain his powers?",
+          "options": ["Gomu Gomu no Mi", "Mera Mera no Mi", "Hana Hana no Mi", "Hie Hie no Mi"],
+          "answer": "Gomu Gomu no Mi",
+          "explanation": "The Gomu Gomu no Mi is a Devil Fruit that gives Luffy his rubber abilities.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Zoro is known for fighting with three swords at once.",
+          "answer": "true",
+          "explanation": "Roronoa Zoro is famous for his unique three-sword style.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "As of 2024, approximately how many episodes of the One Piece anime have aired?",
+          "answer": "1100",
+          "explanation": "One Piece is one of the longest-running anime series, surpassing 1,100 episodes by 2024.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the name of the treasure that Luffy seeks?",
+          "answer": "One Piece",
+          "explanation": "The legendary treasure 'One Piece' is said to be at the end of the Grand Line.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Straw Hat crew member is the ship's navigator?",
+          "options": ["Nami", "Robin", "Sanji", "Usopp"],
+          "answer": "Nami",
+          "explanation": "Nami is the skilled navigator of the Straw Hat Pirates.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 3,
+      "theme_name": "Portal Masters",
+      "theme_description": "Explore the magical universe of Skylanders.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What is the name of the main villain in the Skylanders series?",
+          "answer": "Kaos",
+          "explanation": "Kaos is the recurring antagonist in the Skylanders games.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which element is Spyro associated with in Skylanders?",
+          "options": ["Magic", "Fire", "Water", "Earth"],
+          "answer": "Magic",
+          "explanation": "In Skylanders, Spyro is classified as a Magic element character.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Skylanders figures use NFC technology to interact with the game.",
+          "answer": "true",
+          "explanation": "The figures use NFC chips to transfer character data into the game.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many main Skylanders games were released between 2011 and 2016?",
+          "answer": "6",
+          "explanation": "There were six main Skylanders games released in that period.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the name of the device used to bring Skylanders into the game?",
+          "answer": "Portal of Power",
+          "explanation": "The Portal of Power is the platform that reads Skylanders figures.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which of these is NOT a Skylanders element?",
+          "options": ["Tech", "Light", "Wind", "Undead"],
+          "answer": "Wind",
+          "explanation": "Wind is not an element in the Skylanders universe.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 4,
+      "theme_name": "Battle Royale Blitz",
+      "theme_description": "Test your knowledge of Fortnite's world and history.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What is the name of Fortnite's in-game currency?",
+          "answer": "V-Bucks",
+          "explanation": "V-Bucks are used to purchase skins, emotes, and more in Fortnite.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which of these is NOT a Fortnite location?",
+          "options": ["Tilted Towers", "Pleasant Park", "Dusty Depot", "Sunny Shores"],
+          "answer": "Sunny Shores",
+          "explanation": "Sunny Shores is not a named location in Fortnite.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Fortnite was first released in 2017.",
+          "answer": "true",
+          "explanation": "Fortnite's Battle Royale mode launched in 2017.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many players compete in a standard Fortnite Battle Royale match?",
+          "answer": "100",
+          "explanation": "A typical Fortnite match features 100 players fighting to be the last one standing.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the name of the storm's safe area that shrinks over time?",
+          "answer": "Circle",
+          "explanation": "Players must stay inside the shrinking circle to survive the storm.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which company developed Fortnite?",
+          "options": ["Epic Games", "Activision", "Ubisoft", "EA"],
+          "answer": "Epic Games",
+          "explanation": "Epic Games is the developer and publisher of Fortnite.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 5,
+      "theme_name": "Internet Inside Jokes",
+      "theme_description": "A round dedicated to meme culture and viral moments.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What animal is featured in the 'Doge' meme?",
+          "answer": "Shiba Inu",
+          "explanation": "The 'Doge' meme features a Shiba Inu dog with multicolored Comic Sans text.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which phrase is associated with the 'Distracted Boyfriend' meme?",
+          "options": ["Looking at another girl", "Hide the Pain", "Mocking SpongeBob", "Woman Yelling at Cat"],
+          "answer": "Looking at another girl",
+          "explanation": "The meme shows a man looking at another woman while his girlfriend looks on disapprovingly.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "'Pepe the Frog' originated as a character in a comic strip.",
+          "answer": "true",
+          "explanation": "Pepe first appeared in Matt Furie's comic 'Boys Club.'",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "In what year did the 'Rickroll' meme first appear on YouTube?",
+          "answer": "2007",
+          "explanation": "The 'Rickroll' meme began in 2007, tricking users into watching Rick Astley's 'Never Gonna Give You Up.'",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the name of the meme featuring a white cat sitting at a dinner table?",
+          "answer": "Woman Yelling at Cat",
+          "explanation": "The meme combines a scene from 'The Real Housewives' with a confused-looking cat at a table.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which meme is known for the phrase 'Is this a pigeon?'?",
+          "options": ["Anime Butterfly Guy", "Surprised Pikachu", "Hide the Pain Harold", "Expanding Brain"],
+          "answer": "Anime Butterfly Guy",
+          "explanation": "The 'Is this a pigeon?' meme comes from a scene in the anime 'The Brave Fighter of Sun Fighbird.'",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 6,
+      "theme_name": "Block by Block",
+      "theme_description": "Dig into the world of Minecraft, from crafting to creatures.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What is the name of the dimension you reach by building a portal with obsidian and lighting it?",
+          "answer": "Nether",
+          "explanation": "The Nether is a dangerous, lava-filled dimension in Minecraft.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which of these is NOT a Minecraft mob?",
+          "options": ["Creeper", "Enderman", "Blaze", "Golemite"],
+          "answer": "Golemite",
+          "explanation": "Golemite is not a real mob in Minecraft.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "You can craft a diamond pickaxe using only two diamonds.",
+          "answer": "false",
+          "explanation": "A diamond pickaxe requires three diamonds and two sticks.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many blocks high is a standard Minecraft player character?",
+          "answer": "1.8",
+          "explanation": "The player is 1.8 blocks tall in Minecraft.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the rarest ore in Minecraft as of 2024?",
+          "answer": "Ancient Debris",
+          "explanation": "Ancient Debris is used to make Netherite and is the rarest naturally occurring ore.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which item is needed to tame a wolf in Minecraft?",
+          "options": ["Bone", "Apple", "Fish", "Carrot"],
+          "answer": "Bone",
+          "explanation": "Bones are used to tame wolves and turn them into loyal dogs.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 7,
+      "theme_name": "Monkey Business",
+      "theme_description": "Pop into the world of Bloons TD6 and its tower defense mayhem.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What is the main objective in Bloons TD6?",
+          "answer": "Pop all the bloons",
+          "explanation": "Players must prevent bloons from reaching the end of the path by popping them with towers.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which of these is NOT a monkey tower in Bloons TD6?",
+          "options": ["Dart Monkey", "Ninja Monkey", "Pirate Monkey", "Alchemist"],
+          "answer": "Pirate Monkey",
+          "explanation": "There is no tower called Pirate Monkey, though there is a Monkey Buccaneer.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Bloons TD6 can be played in co-op mode.",
+          "answer": "true",
+          "explanation": "Co-op mode allows players to team up and defend together.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many upgrade paths does each tower have in Bloons TD6?",
+          "answer": "3",
+          "explanation": "Each tower has three upgrade paths, but only two can be used at once.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the name of the most powerful type of bloon, which is black and red and spawns other blimps?",
+          "answer": "BAD",
+          "explanation": "The BAD (Big Airship of Doom) is the toughest bloon in the game.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which currency is used to unlock new heroes in Bloons TD6?",
+          "options": ["Monkey Money", "Banana Bucks", "Bloon Coins", "Tower Tokens"],
+          "answer": "Monkey Money",
+          "explanation": "Monkey Money is earned by playing and used to unlock heroes and other features.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 8,
+      "theme_name": "Challenge Accepted",
+      "theme_description": "A round about Mr. Beast and his wild YouTube stunts.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What is Mr. Beast's real first name?",
+          "answer": "Jimmy",
+          "explanation": "Mr. Beast's real name is Jimmy Donaldson.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which of these challenges did Mr. Beast NOT do?",
+          "options": ["Counting to 100,000", "Last to Leave Circle", "Eating 100 Burgers", "Swimming the English Channel"],
+          "answer": "Swimming the English Channel",
+          "explanation": "Mr. Beast has done many wild challenges, but swimming the English Channel is not one of them.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Mr. Beast has given away over $1 million in a single video.",
+          "answer": "true",
+          "explanation": "He is known for his massive giveaways and philanthropy.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "As of 2024, approximately how many subscribers does Mr. Beast's main YouTube channel have?",
+          "answer": "250000000",
+          "explanation": "Mr. Beast's channel surpassed 250 million subscribers in 2024, making it one of the most-subscribed on YouTube.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the name of Mr. Beast's tree-planting campaign?",
+          "answer": "Team Trees",
+          "explanation": "Team Trees aimed to plant 20 million trees worldwide.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which of these is a frequent collaborator in Mr. Beast's videos?",
+          "options": ["Chris", "Logan", "Felix", "Jake"],
+          "answer": "Chris",
+          "explanation": "Chris Tyson is a longtime friend and collaborator in Mr. Beast's videos.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 9,
+      "theme_name": "Kitchen Confidential",
+      "theme_description": "A taste of cooking, food, and culinary basics.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What is the term for cooking pasta until it is firm to the bite?",
+          "answer": "Al dente",
+          "explanation": "'Al dente' means the pasta is cooked but still has a slight firmness.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which of these is NOT a type of knife cut?",
+          "options": ["Julienne", "Brunoise", "Chiffonade", "Frittata"],
+          "answer": "Frittata",
+          "explanation": "Frittata is an Italian egg dish, not a knife cut.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Baking powder and baking soda are the same thing.",
+          "answer": "false",
+          "explanation": "They are different leavening agents with distinct chemical properties.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "At what temperature in Fahrenheit does water boil at sea level?",
+          "answer": "212",
+          "explanation": "Water boils at 212°F (100°C) at sea level.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the main ingredient in guacamole?",
+          "answer": "Avocado",
+          "explanation": "Guacamole is a dip made primarily from mashed avocados.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which vitamin is most abundant in citrus fruits?",
+          "options": ["Vitamin C", "Vitamin A", "Vitamin D", "Vitamin K"],
+          "answer": "Vitamin C",
+          "explanation": "Citrus fruits are an excellent source of vitamin C.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 10,
+      "theme_name": "Schoolyard Smarts",
+      "theme_description": "A round of general knowledge every elementary student should know.",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What is the largest planet in our solar system?",
+          "answer": "Jupiter",
+          "explanation": "Jupiter is the biggest planet, known for its Great Red Spot.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which continent is Egypt located on?",
+          "options": ["Africa", "Asia", "Europe", "Australia"],
+          "answer": "Africa",
+          "explanation": "Egypt is a country in northeastern Africa.",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "A triangle has four sides.",
+          "answer": "false",
+          "explanation": "A triangle has three sides.",
+          "points": 1
+        },
+        {
+          "type": "closest_number",
+          "question": "How many states are there in the United States?",
+          "answer": "50",
+          "explanation": "The U.S. is made up of 50 states.",
+          "scoring_type": "closest",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What do plants use to make food from sunlight?",
+          "answer": "Photosynthesis",
+          "explanation": "Photosynthesis is the process by which plants convert sunlight into energy.",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which of these is a mammal?",
+          "options": ["Dolphin", "Shark", "Octopus", "Penguin"],
+          "answer": "Dolphin",
+          "explanation": "Dolphins are warm-blooded mammals that breathe air.",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}
