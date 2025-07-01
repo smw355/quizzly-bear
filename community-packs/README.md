@@ -39,12 +39,25 @@ Holiday-themed and seasonal quiz packs for special occasions.
 ## ✨ Featured Packs
 
 ### Recently Added
-- **🌉 Northern California Chronicles** by Shannon Williams - Bay Area and Northern California
-- **⛷️ Skiing Around The World** by Shannon Williams - Global skiing destinations and culture
+- **🌉 [Northern California Chronicles](geography/northern-california-chronicles.json)** by Shannon Williams  
+  *10 rounds exploring Bay Area culture, landmarks, and history*  
+  📊 Difficulty: Mixed | 🎯 Audience: Adults | ⏱️ ~60 minutes
+
+- **⛷️ [Skiing Around The World](sports/skiing_around_the_world_v1.0.json)** by Shannon Williams  
+  *Global skiing destinations, culture, and winter sports*  
+  📊 Difficulty: Medium | 🎯 Audience: General | ⏱️ ~60 minutes
 
 ### Most Popular
 - **🐻 Bear Essentials** (Built-in) - Bear-themed questions across various topics
 - **🤔 Quizzlies Quirky Questions Vol 1** (Built-in) - Creative and unusual trivia
+
+### 🔍 **Quick Pack Finder**
+
+**Looking for something specific?**
+- 🏠 **Local Interest**: [Northern California Chronicles](geography/northern-california-chronicles.json)
+- ⚽ **Sports Fans**: [Skiing Around The World](sports/skiing_around_the_world_v1.0.json)
+- 🌍 **Geography Buffs**: Browse the [geography/](geography/) folder
+- 🏃 **Quick Games**: Packs marked "30 minutes" for shorter sessions
 
 ## 🤝 Contributing Your Own Pack
 
