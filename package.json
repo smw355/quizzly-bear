@@ -1,7 +1,7 @@
 {
   "name": "quizzly-bear",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "🐻 An open-source offline pub quiz application with team management, multiple question types, and customizable quiz packs",
   "author": "Shannon Williams",
   "license": "MIT",
