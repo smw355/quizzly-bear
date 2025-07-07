@@ -29,8 +29,7 @@
     "electron": "electron .",
     "electron-dev": "concurrently \"npm run dev\" \"wait-on http://localhost:5173 && NODE_ENV=development electron .\"",
     "build-electron": "npm run build && electron-builder",
-    "dist": "electron-builder",
-    "generate-icons": "electron-icon-builder --input=./quizzly-bear-icon/PNG/QuizzlyIcon.png --output=./build --flatten"
+    "dist": "electron-builder"
   },
   "dependencies": {
     "@types/better-sqlite3": "^7.6.13",
@@ -48,7 +47,6 @@
     "concurrently": "^9.2.0",
     "electron": "^37.1.0",
     "electron-builder": "^26.0.12",
-    "electron-icon-builder": "^2.0.1",
     "eslint": "^9.29.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import type { GameState } from '../types';
 import { GameLogic } from '../utils/gameLogic';
 import { QuestionContainer } from './questions';
@@ -22,19 +22,25 @@ export const GameFlow: React.FC<Props> = ({
   const [gameState, setGameState] = useState<GameState>(initialGameState);
 
   const handleNext = useCallback(() => {
-    const newState = GameLogic.advanceGame(gameState);
-    setGameState(newState);
-    onSaveProgress(newState);
+    setGameState((currentState) => {
+      const newState = GameLogic.advanceGame(currentState);
+      onSaveProgress(newState);
+      return newState;
+    });
 
     // Don't automatically call onGameEnd when game completes
     // Let the GameComplete component handle this when user clicks "Start New Game"
-  }, [gameState, onSaveProgress]);
+  }, [onSaveProgress]);
+
+  // Use ref to store the latest handleNext function without causing re-renders
+  const handleNextRef = useRef(handleNext);
+  handleNextRef.current = handleNext;
 
   useEffect(() => {
     const handleKeyPress = (event: KeyboardEvent) => {
       if (event.code === 'Space' || event.code === 'Enter') {
         event.preventDefault();
-        handleNext();
+        handleNextRef.current();
       } else if (event.code === 'Escape') {
         event.preventDefault();
         // TODO: Add pause/menu functionality
@@ -43,7 +49,7 @@ export const GameFlow: React.FC<Props> = ({
 
     window.addEventListener('keydown', handleKeyPress);
     return () => window.removeEventListener('keydown', handleKeyPress);
-  }, [gameState, handleNext]);
+  }, []); // Empty dependency array since we use ref
 
   const handleScoreSubmit = (roundScores: Record<number, number>) => {
     const updatedState = GameLogic.updateTeamScores(gameState, roundScores);

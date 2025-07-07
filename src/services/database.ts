@@ -5,7 +5,7 @@ class DatabaseService {
     if (typeof window !== 'undefined' && window.electronAPI) {
       return window.electronAPI;
     }
-    throw new Error('Electron API not available');
+    throw new Error('Electron API not available - ensure app is running in Electron context');
   }
 
   // Game Pack operations
@@ -144,7 +144,9 @@ class DatabaseService {
 
   async getRoundScores(gameId: number, roundNumber: number): Promise<Record<string, number>> {
     try {
-      return await this.api.getRoundScores(gameId, roundNumber);
+      const scores = await this.api.getRoundScores(gameId, roundNumber);
+      // Ensure we return a proper object even if API returns null/undefined
+      return scores || {};
     } catch (error) {
       console.error('Failed to get round scores:', error);
       return {};
@@ -175,11 +177,19 @@ class DatabaseService {
   }
 
   private mapDbRoundToRound(dbRound: DatabaseRound): Round {
+    let questions;
+    try {
+      questions = JSON.parse(dbRound.questions_json);
+    } catch (error) {
+      console.error('Failed to parse questions JSON for round:', dbRound.round_number, error);
+      questions = []; // Default to empty array if JSON is malformed
+    }
+    
     return {
       round_number: dbRound.round_number,
       theme_name: dbRound.theme_name,
       theme_description: dbRound.theme_description,
-      questions: JSON.parse(dbRound.questions_json)
+      questions
     };
   }
 

@@ -7,8 +7,12 @@ import { quirkyQuestionsRounds } from './data/quirkyQuestions';
 import { GameFlow } from './components/GameFlow';
 import { GameLogic } from './utils/gameLogic';
 import { databaseService } from './services/database';
+import { ErrorBoundary } from './components/ErrorBoundary';
 
 type AppPhase = 'pack_selection' | 'team_setup' | 'game_playing' | 'pack_management' | 'pack_editing';
+
+// Temporary IDs for new teams start from this value
+const TEMP_TEAM_ID_THRESHOLD = 1000000;
 
 function App() {
   const [appPhase, setAppPhase] = useState<AppPhase>('pack_selection');
@@ -91,7 +95,7 @@ function App() {
         // First, ensure all teams are saved to the database
         const savedTeams: Team[] = [];
         for (const team of teams) {
-          if (team.id && team.id < 1000000) {
+          if (team.id && team.id < TEMP_TEAM_ID_THRESHOLD) {
             // This is an existing team with a real database ID
             savedTeams.push(team);
           } else {
@@ -106,7 +110,10 @@ function App() {
         }
 
         // Create game in database
-        const gameId = await databaseService.createGame(selectedPack.id!, selectedRounds.length);
+        if (!selectedPack.id) {
+          throw new Error('Selected pack must have a valid database ID');
+        }
+        const gameId = await databaseService.createGame(selectedPack.id, selectedRounds.length);
         if (gameId) {
           setCurrentGameId(gameId);
           const gameState = GameLogic.initializeGame(selectedPack, savedTeams, selectedRounds, gameId);
@@ -335,16 +342,18 @@ function App() {
   };
 
   return (
-    <div className="app">
-      {renderCurrentPhase()}
-      
-      {/* Global keyboard shortcuts info */}
-      {appPhase === 'game_playing' && (
-        <div className="fixed bottom-4 left-4 bg-black bg-opacity-50 text-white px-3 py-2 rounded text-xs">
-          F11: Fullscreen • Esc: Menu
-        </div>
-      )}
-    </div>
+    <ErrorBoundary>
+      <div className="app">
+        {renderCurrentPhase()}
+        
+        {/* Global keyboard shortcuts info */}
+        {appPhase === 'game_playing' && (
+          <div className="fixed bottom-4 left-4 bg-black bg-opacity-50 text-white px-3 py-2 rounded text-xs">
+            F11: Fullscreen • Esc: Menu
+          </div>
+        )}
+      </div>
+    </ErrorBoundary>
   );
 }
 

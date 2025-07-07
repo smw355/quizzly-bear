@@ -17,8 +17,14 @@ export const GameComplete: React.FC<Props> = ({
 
   useEffect(() => {
     // Trigger animations on mount
-    setTimeout(() => setAnimateIn(true), 100);
-    setTimeout(() => setShowConfetti(true), 500);
+    const animateTimeout = setTimeout(() => setAnimateIn(true), 100);
+    const confettiTimeout = setTimeout(() => setShowConfetti(true), 500);
+    
+    // Cleanup timeouts on unmount
+    return () => {
+      clearTimeout(animateTimeout);
+      clearTimeout(confettiTimeout);
+    };
   }, []);
 
   const getPositionEmoji = (position: number) => {

@@ -7,12 +7,17 @@ export class GameLogic {
     selectedRounds: Round[],
     gameId?: number
   ): GameState {
-    const teamScores: TeamScore[] = teams.map((team) => ({
-      team_id: team.id!, // All teams should have database IDs by this point
-      team_name: team.name,
-      current_score: 0,
-      round_score: 0,
-    }));
+    const teamScores: TeamScore[] = teams.map((team) => {
+      if (!team.id) {
+        throw new Error(`Team '${team.name}' must have a database ID before starting a game`);
+      }
+      return {
+        team_id: team.id,
+        team_name: team.name,
+        current_score: 0,
+        round_score: 0,
+      };
+    });
 
     return {
       pack: gamePack,
@@ -57,6 +62,9 @@ export class GameLogic {
 
   static advanceGame(gameState: GameState): GameState {
     const currentRound = gameState.rounds[gameState.current_round];
+    if (!currentRound) {
+      throw new Error('No current round available');
+    }
     const isLastQuestion = gameState.current_question >= currentRound.questions.length - 1;
     const isLastRound = gameState.current_round >= gameState.rounds.length - 1;
 
@@ -181,7 +189,8 @@ export class GameLogic {
 
     return {
       roundProgress: (gameState.current_round + 1) / gameState.total_rounds,
-      questionProgress: gameState.current_question / (gameState.rounds[gameState.current_round]?.questions.length || 1),
+      questionProgress: gameState.current_round < gameState.rounds.length ? 
+        gameState.current_question / Math.max(1, gameState.rounds[gameState.current_round].questions.length) : 0,
       overallProgress: completedQuestions / totalQuestions,
     };
   }

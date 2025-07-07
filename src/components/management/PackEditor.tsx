@@ -154,8 +154,15 @@ export const PackEditor: React.FC<Props> = ({
   };
 
   const addQuestion = () => {
-    const newRounds = [...rounds];
-    newRounds[activeRound].questions.push(createNewQuestion('text_answer'));
+    const newRounds = rounds.map((round, index) => {
+      if (index === activeRound) {
+        return {
+          ...round,
+          questions: [...round.questions, createNewQuestion('text_answer')]
+        };
+      }
+      return round;
+    });
     setRounds(newRounds);
     setActiveQuestion(newRounds[activeRound].questions.length - 1);
   };
@@ -163,21 +170,44 @@ export const PackEditor: React.FC<Props> = ({
   const deleteQuestion = (questionIndex: number) => {
     if (rounds[activeRound].questions.length <= 1) return;
     
-    const newRounds = [...rounds];
-    newRounds[activeRound].questions.splice(questionIndex, 1);
+    const newRounds = rounds.map((round, index) => {
+      if (index === activeRound) {
+        return {
+          ...round,
+          questions: round.questions.filter((_, i) => i !== questionIndex)
+        };
+      }
+      return round;
+    });
     setRounds(newRounds);
     setActiveQuestion(Math.min(questionIndex, newRounds[activeRound].questions.length - 1));
   };
 
   const updateRound = (field: keyof Round, value: string) => {
-    const newRounds = [...rounds];
-    (newRounds[activeRound] as unknown as Record<string, unknown>)[field] = value;
+    const newRounds = rounds.map((round, index) => {
+      if (index === activeRound) {
+        return { ...round, [field]: value };
+      }
+      return round;
+    });
     setRounds(newRounds);
   };
 
   const updateQuestion = (field: string, value: string | number | string[]) => {
-    const newRounds = [...rounds];
-    (newRounds[activeRound].questions[activeQuestion] as unknown as Record<string, unknown>)[field] = value;
+    const newRounds = rounds.map((round, roundIndex) => {
+      if (roundIndex === activeRound) {
+        return {
+          ...round,
+          questions: round.questions.map((question, questionIndex) => {
+            if (questionIndex === activeQuestion) {
+              return { ...question, [field]: value };
+            }
+            return question;
+          })
+        };
+      }
+      return round;
+    });
     setRounds(newRounds);
   };
 
