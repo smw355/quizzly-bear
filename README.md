@@ -28,11 +28,15 @@ An open-source offline pub quiz application designed for hosting engaging quiz n
 
 ### Download & Install
 1. **Download** the latest release from [GitHub Releases](https://github.com/smw355/quizzly-bear/releases):
-   - 🍎 **Mac**: `Quizzly-Bear-1.0.0.dmg` (Intel) or `Quizzly-Bear-1.0.0-arm64.dmg` (Apple Silicon)
-   - 🪟 **Windows**: `Quizzly-Bear-Setup-1.0.0.exe`
-   - 🐧 **Linux**: `Quizzly-Bear-1.0.0.AppImage`
+   - 🍎 **Mac**: `Quizzly.Bear-1.0.8.dmg` (Intel) or `Quizzly.Bear-1.0.8-arm64.dmg` (Apple Silicon)
+   - 🪟 **Windows**: `Quizzly.Bear.Setup.1.0.8.exe`
+   - 🐧 **Linux**: `Quizzly.Bear-1.0.8.AppImage`
 
 2. **Install** and launch the application
+   
+   > **macOS Security Note**: On first launch, macOS may show a security warning because the app isn't code signed. To open:
+   > - Right-click the app → "Open" → "Open" in the dialog, OR
+   > - Open normally → Go to System Settings → Privacy & Security → Click "Open Anyway"
 
 3. **Select a Quiz Pack** from the included content or import your own
 
