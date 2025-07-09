@@ -1,0 +1,448 @@
+{
+  "name": "Quizzly Cabin Questions Part 2",
+  "version": "1.1",
+  "author": "Obot (Acorn Labs)",
+  "description": "Ten challenging rounds: six from the original set (Real Housewives, The Two Kings, Alt Nation, WWII Battles, Engine Room, The Bard's Stage) plus four new rounds on 2020, Marin County, the letter P, and limited edition fast food items. All questions are medium or hard difficulty.",
+  "rounds": [
+    {
+      "round_number": 1,
+      "theme_name": "Real Housewives Drama",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which Real Housewives franchise featured the infamous table flip by Teresa Giudice?",
+          "answer": "Real Housewives of New Jersey",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Real Housewife is known for the catchphrase 'Gone with the wind fabulous'?",
+          "options": ["Kenya Moore", "NeNe Leakes", "Bethenny Frankel", "Lisa Vanderpump"],
+          "answer": "Kenya Moore",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Bethenny Frankel was an original cast member on Real Housewives of New York.",
+          "answer": "true",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the name of Lisa Vanderpump's restaurant in West Hollywood?",
+          "answer": "SUR",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Real Housewife launched the Skinnygirl brand?",
+          "options": ["Bethenny Frankel", "Ramona Singer", "Sonja Morgan", "Luann de Lesseps"],
+          "answer": "Bethenny Frankel",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which Real Housewives city was the first international franchise?",
+          "answer": "Melbourne",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 2,
+      "theme_name": "The Two Kings",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What was Elvis Presley's middle name?",
+          "answer": "Aaron",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Michael Jackson album is the best-selling album of all time?",
+          "options": ["Thriller", "Bad", "Off the Wall", "Dangerous"],
+          "answer": "Thriller",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Elvis Presley and Michael Jackson both died at age 50.",
+          "answer": "true",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What was Michael Jackson's pet chimpanzee named?",
+          "answer": "Bubbles",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Elvis song was his first number one hit?",
+          "options": ["Heartbreak Hotel", "Don't Be Cruel", "Hound Dog", "Love Me Tender"],
+          "answer": "Heartbreak Hotel",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What dance move is Michael Jackson most famous for?",
+          "answer": "Moonwalk",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 3,
+      "theme_name": "Alt Nation",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which band released the album 'OK Computer' in 1997?",
+          "answer": "Radiohead",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Nirvana song contains the lyrics 'Here we are now, entertain us'?",
+          "options": ["Smells Like Teen Spirit", "Come As You Are", "In Bloom", "Lithium"],
+          "answer": "Smells Like Teen Spirit",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Pearl Jam was originally called Mookie Blaylock.",
+          "answer": "true",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which city is considered the birthplace of grunge music?",
+          "answer": "Seattle",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which band did not originate from the UK?",
+          "options": ["Blur", "Oasis", "Stone Temple Pilots", "Pulp"],
+          "answer": "Stone Temple Pilots",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What was the name of Soundgarden's breakthrough album released in 1994?",
+          "answer": "Superunknown",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 4,
+      "theme_name": "WWII Battles",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which battle is considered the turning point of WWII in the Pacific?",
+          "answer": "Battle of Midway",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Operation Overlord was the code name for which major WWII operation?",
+          "options": ["D-Day landings", "Operation Barbarossa", "Battle of Stalingrad", "Operation Market Garden"],
+          "answer": "D-Day landings",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "The Battle of Britain was fought entirely in the air.",
+          "answer": "true",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which German general was known as the 'Desert Fox'?",
+          "answer": "Erwin Rommel",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "The siege of which city lasted 872 days?",
+          "options": ["Leningrad", "Stalingrad", "Warsaw", "Berlin"],
+          "answer": "Leningrad",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What was the largest tank battle in history?",
+          "answer": "Battle of Kursk",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 5,
+      "theme_name": "Engine Room",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What does RPM stand for in automotive terms?",
+          "answer": "Revolutions Per Minute",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which component converts the reciprocating motion of pistons into rotational motion?",
+          "options": ["Crankshaft", "Camshaft", "Connecting rod", "Flywheel"],
+          "answer": "Crankshaft",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Diesel engines use spark plugs for ignition.",
+          "answer": "false",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the most common type of engine configuration in modern cars?",
+          "answer": "Inline four",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which of these is NOT a stroke in a four-stroke engine?",
+          "options": ["Intake", "Compression", "Combustion", "Lubrication"],
+          "answer": "Lubrication",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What does turbocharging increase in an engine?",
+          "answer": "Air pressure",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 6,
+      "theme_name": "The Bard's Stage",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "In which Shakespeare play does the character Shylock appear?",
+          "answer": "The Merchant of Venice",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Shakespeare play features the quote 'To be or not to be, that is the question'?",
+          "options": ["Hamlet", "Macbeth", "King Lear", "Othello"],
+          "answer": "Hamlet",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Romeo and Juliet is set in Verona, Italy.",
+          "answer": "true",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which Shakespeare play is also known as 'The Scottish Play'?",
+          "answer": "Macbeth",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "In A Midsummer Night's Dream, who is the king of the fairies?",
+          "options": ["Oberon", "Puck", "Titania", "Bottom"],
+          "answer": "Oberon",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What was the name of Shakespeare's theater company?",
+          "answer": "The Lord Chamberlain's Men",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 7,
+      "theme_name": "2020 Hindsight",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which popular video conferencing app saw massive growth during the 2020 pandemic?",
+          "answer": "Zoom",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Netflix show became the most-watched series on the platform in 2020?",
+          "options": ["Tiger King", "The Queen's Gambit", "Bridgerton", "Ozark"],
+          "answer": "Tiger King",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "The Tokyo Olympics were held as scheduled in 2020.",
+          "answer": "false",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What was the most popular social media app downloaded in 2020?",
+          "answer": "TikTok",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which film won the Academy Award for Best Picture in 2021 (for 2020 films)?",
+          "options": ["Nomadland", "Minari", "The Father", "Sound of Metal"],
+          "answer": "Nomadland",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What gaming trend became popular during lockdowns involving players creating virtual islands?",
+          "answer": "Animal Crossing",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 8,
+      "theme_name": "North of the Golden Gate",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What is the name of the national recreation area that covers much of Marin's coastline and includes Muir Woods?",
+          "answer": "Golden Gate National Recreation Area",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Marin County town is known for its annual film festival?",
+          "options": ["San Rafael", "Mill Valley", "Sausalito", "Tiburon"],
+          "answer": "Mill Valley",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Marin County has the highest median household income of any county in California as of 2023.",
+          "answer": "false",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "In what year did the Golden Gate Bridge open to traffic?",
+          "answer": "1937",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the name of the mountain that is the highest point in Marin County?",
+          "answer": "Mount Tamalpais",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which famous music festival was held in Marin County in 1967, considered a precursor to Woodstock?",
+          "options": ["Monterey Pop Festival", "Altamont Free Concert", "Fantasy Fair and Magic Mountain Music Festival", "Isle of Wight Festival"],
+          "answer": "Fantasy Fair and Magic Mountain Music Festival",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 9,
+      "theme_name": "The Letter P",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What 'P' word describes the fear of spiders?",
+          "answer": "Arachnophobia",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which 'P' element is essential for bone formation?",
+          "options": ["Phosphorus", "Potassium", "Platinum", "Polonium"],
+          "answer": "Phosphorus",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Penguins are found naturally in both the Arctic and Antarctic.",
+          "answer": "false",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What 'P' word means the study of the mind and behavior?",
+          "answer": "Psychology",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which 'P' city is the capital of France?",
+          "options": ["Paris", "Prague", "Porto", "Palermo"],
+          "answer": "Paris",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What 'P' instrument has 88 keys?",
+          "answer": "Piano",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 10,
+      "theme_name": "Fast Food FOMO",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which fast food chain brought back its 'Szechuan Sauce' for a limited time in 2017 after a 'Rick and Morty' episode?",
+          "answer": "McDonald's",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which of these Taco Bell menu items was discontinued in 2020?",
+          "options": ["Mexican Pizza", "Quesalupa", "Beefy Fritos Burrito", "Fiesta Potatoes"],
+          "answer": "Mexican Pizza",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Burger King's 'Black Whopper' bun was colored with squid ink.",
+          "answer": "false",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "In what year did KFC first introduce its 'Double Down' sandwich in the United States?",
+          "answer": "2010",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What was the name of the limited-edition, bright green soft drink released by Mountain Dew in partnership with Taco Bell?",
+          "answer": "Baja Blast",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which fast food chain released a 'Pumpkin Spice' fried chicken sandwich in 2023?",
+          "options": ["Popeyes", "KFC", "Chick-fil-A", "Wendy's"],
+          "answer": "Popeyes",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

@@ -51,6 +51,15 @@ jobs:
     - name: Build application
       run: npm run build
       
+    - name: Verify icon files
+      run: |
+        echo "Checking for icon files..."
+        ls -la build/ || echo "No build directory found"
+        file build/icon.icns || echo "No macOS icon found"
+        file build/icon.ico || echo "No Windows icon found"
+        file build/icon.png || echo "No Linux icon found"
+      shell: bash
+      
     - name: Build Electron app
       run: npm run build-electron
       env:

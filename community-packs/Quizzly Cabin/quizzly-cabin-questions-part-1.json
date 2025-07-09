@@ -1,0 +1,36 @@
+{
+  "name": "Quizzly Cabin Questions Part 1",
+  "version": "1.1",
+  "author": "Obot (Acorn Labs)",
+  "description": "The first 10 rounds of a challenging, wide-ranging quiz pack, featuring Disney rides, celebrity gossip, sports, pop culture, and more. All questions are medium or hard difficulty.",
+  "rounds": [
+    {
+      "round_number": 1,
+      "theme_name": "Hidden Gems of the Parks",
+      "theme_description": "Exploring lesser-known attractions at Disney parks in the US.",
+      "questions": [
+        {"type": "text_answer", "question": "Which Disneyland ride, opened in 1955 and themed after a 19th-century riverboat, is often overshadowed by its neighboring attractions but features animatronic animals and a Mark Twain narration?", "answer": "Mark Twain Riverboat", "explanation": "The Mark Twain Riverboat is a classic Disneyland attraction, offering a scenic tour of the Rivers of America with narration and animatronic wildlife. It opened with the park in 1955.", "points": 1},
+        {"type": "multiple_choice", "question": "Which Magic Kingdom attraction is a slow-moving, rotating theater that showcases the evolution of technology in the American home?", "options": ["Carousel of Progress", "Hall of Presidents", "Spaceship Earth", "Walt Disney's Enchanted Tiki Room"], "answer": "Carousel of Progress", "explanation": "Carousel of Progress is a rotating theater attraction in Magic Kingdom, originally created for the 1964 World's Fair, and is one of Walt Disney's personal favorites.", "points": 1},
+        {"type": "true_false", "question": "The PeopleMover at Magic Kingdom was originally designed as a prototype for urban mass transit systems.", "answer": "true", "explanation": "The PeopleMover was envisioned as a model for future city transportation, not just a theme park ride.", "points": 1},
+        {"type": "closest_number", "question": "In what year did the original Mr. Toad's Wild Ride close at Walt Disney World?", "answer": "1998", "explanation": "Mr. Toad's Wild Ride closed in 1998 at Walt Disney World, though it remains at Disneyland.", "scoring_type": "closest", "points": 1},
+        {"type": "text_answer", "question": "What is the name of the Epcot attraction that simulates a hang-gliding flight over California and later, the world?", "answer": "Soarin'", "explanation": "Soarin' is a popular Epcot ride that uses a mechanical lift and projection to simulate hang-gliding.", "points": 1},
+        {"type": "multiple_choice", "question": "Which Disneyland dark ride is based on a 1940 animated film and is located in Fantasyland?", "options": ["Pinocchio's Daring Journey", "Snow White's Enchanted Wish", "Mr. Toad's Wild Ride", "Alice in Wonderland"], "answer": "Pinocchio's Daring Journey", "explanation": "Pinocchio's Daring Journey is a Fantasyland dark ride based on the 1940 film, often overlooked compared to other classics.", "points": 1}
+      ]
+    },
+    // ... (other rounds unchanged except for Round 8)
+    {
+      "round_number": 8,
+      "theme_name": "Big Screen, Big Hair",
+      "theme_description": "Iconic and obscure films of the 1980s.",
+      "questions": [
+        {"type": "text_answer", "question": "Which 1982 sci-fi film, directed by Ridley Scott, is based on Philip K. Dick's novel 'Do Androids Dream of Electric Sheep?'?", "answer": "Blade Runner", "explanation": "Blade Runner is a cult classic that explores themes of identity and humanity, based on Dick's novel.", "points": 1},
+        {"type": "multiple_choice", "question": "Which 1987 film features a character named Inigo Montoya seeking revenge for his father's death?", "options": ["The Princess Bride", "Willow", "Labyrinth", "The NeverEnding Story"], "answer": "The Princess Bride", "explanation": "Inigo Montoya's quest for revenge is a central plot in The Princess Bride, a beloved 1987 fantasy film.", "points": 1},
+        {"type": "true_false", "question": "The 1984 film 'Amadeus' won the Academy Award for Best Picture.", "answer": "true", "explanation": "Amadeus won Best Picture at the 57th Academy Awards, recognized for its portrayal of Mozart and Salieri.", "points": 1},
+        {"type": "closest_number", "question": "How many films did John Hughes direct in the 1980s?", "answer": "8", "explanation": "John Hughes directed 8 films in the 1980s, including classics like The Breakfast Club and Ferris Bueller's Day Off.", "scoring_type": "closest", "points": 1},
+        {"type": "text_answer", "question": "Which 1985 film features a time-traveling DeLorean?", "answer": "Back to the Future", "explanation": "Back to the Future, released in 1985, features the iconic DeLorean time machine.", "points": 1},
+        {"type": "multiple_choice", "question": "Which 1986 animated film was the first Disney feature to use computer-generated imagery (CGI) for a major scene?", "options": ["The Great Mouse Detective", "The Little Mermaid", "Oliver & Company", "The Black Cauldron"], "answer": "The Great Mouse Detective", "explanation": "The Great Mouse Detective (1986) used CGI for the clock tower scene, making it the first Disney feature to use CGI for a major sequence.", "points": 1}
+      ]
+    }
+    // ... (other rounds unchanged)
+  ]
+}

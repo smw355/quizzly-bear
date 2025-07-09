@@ -24,4 +24,7 @@ contextBridge.exposeInMainWorld('electronAPI', {
     ipcRenderer.invoke('db:getRoundScores', gameId, roundNumber),
   updateGameWinner: (gameId, winningTeamId) => 
     ipcRenderer.invoke('db:updateGameWinner', gameId, winningTeamId),
+  
+  // System operations
+  openExternal: (url) => ipcRenderer.invoke('shell:openExternal', url),
 });

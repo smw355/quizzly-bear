@@ -1,0 +1,37 @@
+{
+  "name": "Quizzly Cabin Questions Part 2",
+  "version": "1.1",
+  "author": "Obot (Acorn Labs)",
+  "description": "Ten challenging rounds: six from the original set (Real Housewives, The Two Kings, Alt Nation, WWII Battles, Engine Room, The Bard’s Stage) plus four new rounds on 2020, Marin County, the letter P, and limited edition fast food items. All questions are medium or hard difficulty.",
+  "rounds": [
+    // ... (rounds 1-7 unchanged)
+    {
+      "round_number": 8,
+      "theme_name": "North of the Golden Gate",
+      "theme_description": "History, geography, and culture of Marin County, California.",
+      "questions": [
+        {"type": "text_answer", "question": "What is the name of the national recreation area that covers much of Marin’s coastline and includes Muir Woods?", "answer": "Golden Gate National Recreation Area", "explanation": "The GGNRA is one of the largest urban national parks in the world, spanning Marin and San Francisco.", "points": 1},
+        {"type": "multiple_choice", "question": "Which Marin County town is known for its annual film festival, while Skywalker Ranch is located near Nicasio?", "options": ["San Rafael", "Mill Valley", "Sausalito", "Tiburon"], "answer": "Mill Valley", "explanation": "The Mill Valley Film Festival is a major event in Marin, and Skywalker Ranch is located near Nicasio, not in a town.", "points": 1},
+        {"type": "true_false", "question": "Marin County has the highest median household income of any county in California as of 2023.", "answer": "false", "explanation": "While Marin is among the wealthiest, Santa Clara and San Mateo counties have higher median incomes.", "points": 1},
+        {"type": "closest_number", "question": "In what year did the Golden Gate Bridge open to traffic?", "answer": "1937", "explanation": "The iconic bridge, connecting Marin to San Francisco, opened in 1937.", "scoring_type": "closest", "points": 1},
+        {"type": "text_answer", "question": "What is the name of the mountain that is the highest point in Marin County?", "answer": "Mount Tamalpais", "explanation": "Mount Tamalpais, or “Mount Tam,” is a beloved hiking and biking destination.", "points": 1},
+        {"type": "multiple_choice", "question": "Which famous music festival was held in Marin County in 1967, considered a precursor to Woodstock?", "options": ["Monterey Pop Festival", "Altamont Free Concert", "Fantasy Fair and Magic Mountain Music Festival", "Isle of Wight Festival"], "answer": "Fantasy Fair and Magic Mountain Music Festival", "explanation": "The Fantasy Fair and Magic Mountain Music Festival in 1967 is sometimes called the first rock festival, though the Mill Valley Film Festival is Marin's most famous recurring event.", "points": 1}
+      ]
+    },
+    // ... (round 10 Taco Bell question fix)
+    {
+      "round_number": 10,
+      "theme_name": "Fast Food FOMO",
+      "theme_description": "Limited edition and discontinued fast food items from the last decade.",
+      "questions": [
+        {"type": "text_answer", "question": "Which fast food chain brought back its “Szechuan Sauce” for a limited time in 2017 after a “Rick and Morty” episode?", "answer": "McDonald’s", "explanation": "McDonald’s Szechuan Sauce became a cult favorite after being referenced on “Rick and Morty.”", "points": 1},
+        {"type": "multiple_choice", "question": "Which of these Taco Bell menu items was discontinued in 2020? (More than one correct answer possible)", "options": ["Mexican Pizza", "Quesalupa", "Beefy Fritos Burrito", "Fiesta Potatoes"], "answer": "Mexican Pizza, Beefy Fritos Burrito, Fiesta Potatoes", "explanation": "Taco Bell discontinued several items in 2020, including Mexican Pizza, Beefy Fritos Burrito, and Fiesta Potatoes.", "points": 1},
+        {"type": "true_false", "question": "Burger King’s “Black Whopper” bun was colored with squid ink.", "answer": "false", "explanation": "The bun was colored with A1 steak sauce and food coloring, not squid ink.", "points": 1},
+        {"type": "closest_number", "question": "In what year did KFC first introduce its “Double Down” sandwich in the United States?", "answer": "2010", "explanation": "The Double Down, a sandwich with fried chicken fillets instead of bread, debuted in 2010.", "scoring_type": "closest", "points": 1},
+        {"type": "text_answer", "question": "What was the name of the limited-edition, bright green soft drink released by Mountain Dew in partnership with Taco Bell?", "answer": "Baja Blast", "explanation": "Mountain Dew Baja Blast was created exclusively for Taco Bell before being released in stores.", "points": 1},
+        {"type": "multiple_choice", "question": "Which fast food chain released a “Pumpkin Spice” fried chicken sandwich in 2023?", "options": ["Popeyes", "KFC", "Chick-fil-A", "Wendy’s"], "answer": "Popeyes", "explanation": "Popeyes introduced a limited-time Pumpkin Spice chicken sandwich in fall 2023.", "points": 1}
+      ]
+    }
+    // ... (other rounds unchanged)
+  ]
+}

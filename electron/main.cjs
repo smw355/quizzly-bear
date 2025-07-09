@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcMain } = require('electron');
+const { app, BrowserWindow, ipcMain, shell } = require('electron');
 const path = require('path');
 const fs = require('fs');
 
@@ -294,6 +294,15 @@ ipcMain.handle('db:updateGameWinner', async (event, gameId, winningTeamId) => {
   } catch (error) {
     console.error('Error updating game winner:', error);
     return null;
+  }
+});
+
+// System operations
+ipcMain.handle('shell:openExternal', async (event, url) => {
+  try {
+    await shell.openExternal(url);
+  } catch (error) {
+    console.error('Error opening external URL:', error);
   }
 });
 

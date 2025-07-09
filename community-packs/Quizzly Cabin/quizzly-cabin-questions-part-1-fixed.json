@@ -1,0 +1,448 @@
+{
+  "name": "Quizzly Cabin Questions Part 1",
+  "version": "1.1",
+  "author": "Obot (Acorn Labs)",
+  "description": "The first 10 rounds of a challenging, wide-ranging quiz pack, featuring Disney rides, celebrity gossip, sports, pop culture, and more. All questions are medium or hard difficulty.",
+  "rounds": [
+    {
+      "round_number": 1,
+      "theme_name": "Hidden Gems of the Parks",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which Disneyland ride, opened in 1955 and themed after a 19th-century riverboat, is often overshadowed by its neighboring attractions but features animatronic animals and a Mark Twain narration?",
+          "answer": "Mark Twain Riverboat",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Magic Kingdom attraction is a slow-moving, rotating theater that showcases the evolution of technology in the American home?",
+          "options": ["Carousel of Progress", "Hall of Presidents", "Spaceship Earth", "Walt Disney's Enchanted Tiki Room"],
+          "answer": "Carousel of Progress",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "The PeopleMover at Magic Kingdom was originally designed as a prototype for urban mass transit systems.",
+          "answer": "true",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "In what year did the original Mr. Toad's Wild Ride close at Walt Disney World?",
+          "answer": "1998",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the name of the Epcot attraction that simulates a hang-gliding flight over California and later, the world?",
+          "answer": "Soarin'",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Disneyland dark ride is based on a 1940 animated film and is located in Fantasyland?",
+          "options": ["Pinocchio's Daring Journey", "Snow White's Enchanted Wish", "Mr. Toad's Wild Ride", "Alice in Wonderland"],
+          "answer": "Pinocchio's Daring Journey",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 2,
+      "theme_name": "Celebrity Real Estate",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which pop star purchased a $25 million mansion in Beverly Hills that was previously owned by Tom Cruise?",
+          "answer": "Taylor Swift",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which actor owns a private island in the Bahamas called Little Hall's Pond Cay?",
+          "options": ["Johnny Depp", "Leonardo DiCaprio", "Brad Pitt", "George Clooney"],
+          "answer": "Johnny Depp",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Oprah Winfrey owns property on every inhabited Hawaiian island.",
+          "answer": "false",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which tech billionaire purchased the most expensive home ever sold in California for $238 million?",
+          "answer": "Jeff Bezos",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which celebrity couple owns a vineyard in France called Miraval?",
+          "options": ["Angelina Jolie and Brad Pitt", "Ryan Reynolds and Blake Lively", "John Krasinski and Emily Blunt", "Justin Timberlake and Jessica Biel"],
+          "answer": "Angelina Jolie and Brad Pitt",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the name of George Clooney's Lake Como estate?",
+          "answer": "Villa Oleandra",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 3,
+      "theme_name": "Olympic Oddities",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which sport was removed from the Olympics after 1936 and has never returned?",
+          "answer": "Polo",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which unusual event was part of the Olympics from 1900 to 1920?",
+          "options": ["Tug of War", "Hot Air Ballooning", "Standing High Jump", "Rope Climbing"],
+          "answer": "Tug of War",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Art competitions were once part of the Olympic Games.",
+          "answer": "true",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "In which year were the Olympics first televised?",
+          "answer": "1936",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which animal was used in Olympic competition until 1948?",
+          "options": ["Horses", "Pigeons", "Dogs", "Carrier Pigeons"],
+          "answer": "Pigeons",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What was the maximum number of events an athlete could compete in during the early modern Olympics?",
+          "answer": "Unlimited",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 4,
+      "theme_name": "90s Time Capsule",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which handheld electronic pet became a global phenomenon in 1996?",
+          "answer": "Tamagotchi",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which TV show introduced the phrase 'The truth is out there'?",
+          "options": ["The X-Files", "Twin Peaks", "Quantum Leap", "Unsolved Mysteries"],
+          "answer": "The X-Files",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Blockbuster Video was founded in the 1990s.",
+          "answer": "false",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What was the best-selling video game console of the 1990s?",
+          "answer": "Sony PlayStation",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which fashion trend was NOT popular in the 90s?",
+          "options": ["Cargo pants", "Skinny jeans", "Flannel shirts", "Doc Martens"],
+          "answer": "Skinny jeans",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which search engine dominated the internet before Google?",
+          "answer": "Yahoo",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 5,
+      "theme_name": "Space Race Secrets",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which animal was the first to orbit Earth and return alive?",
+          "answer": "Dog (Laika)",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which country launched the first artificial satellite?",
+          "options": ["Soviet Union", "United States", "United Kingdom", "France"],
+          "answer": "Soviet Union",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Neil Armstrong was the first person to spacewalk.",
+          "answer": "false",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What was the name of the first space station?",
+          "answer": "Salyut 1",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which Apollo mission was the first to orbit the Moon?",
+          "options": ["Apollo 8", "Apollo 9", "Apollo 10", "Apollo 11"],
+          "answer": "Apollo 8",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which female astronaut was the first woman in space?",
+          "answer": "Valentina Tereshkova",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 6,
+      "theme_name": "Food Science",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What chemical compound gives chili peppers their heat?",
+          "answer": "Capsaicin",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which gas is released when you cut an onion, causing tears?",
+          "options": ["Sulfur dioxide", "Syn-propanethial-S-oxide", "Hydrogen sulfide", "Methane"],
+          "answer": "Syn-propanethial-S-oxide",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Honey never spoils due to its low pH and lack of water.",
+          "answer": "true",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What process gives bread its fluffy texture?",
+          "answer": "Fermentation",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which vitamin is produced when your skin is exposed to sunlight?",
+          "options": ["Vitamin C", "Vitamin D", "Vitamin E", "Vitamin K"],
+          "answer": "Vitamin D",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the main protein found in wheat that gives dough its elasticity?",
+          "answer": "Gluten",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 7,
+      "theme_name": "Literary Villains",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which Shakespeare play features the villain Iago?",
+          "answer": "Othello",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "In which novel does the character Nurse Ratched appear?",
+          "options": ["One Flew Over the Cuckoo's Nest", "The Shining", "Misery", "Carrie"],
+          "answer": "One Flew Over the Cuckoo's Nest",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "Count Dracula was based on a real historical figure.",
+          "answer": "true",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the name of Harry Potter's main antagonist?",
+          "answer": "Voldemort",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which author created the character Hannibal Lecter?",
+          "options": ["Thomas Harris", "Stephen King", "Gillian Flynn", "Patricia Highsmith"],
+          "answer": "Thomas Harris",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "In George Orwell's 1984, what is the name of the totalitarian leader?",
+          "answer": "Big Brother",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 8,
+      "theme_name": "Big Screen, Big Hair",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which 1982 sci-fi film, directed by Ridley Scott, is based on Philip K. Dick's novel 'Do Androids Dream of Electric Sheep?'?",
+          "answer": "Blade Runner",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which 1987 film features a character named Inigo Montoya seeking revenge for his father's death?",
+          "options": ["The Princess Bride", "Willow", "Labyrinth", "The NeverEnding Story"],
+          "answer": "The Princess Bride",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "The 1984 film 'Amadeus' won the Academy Award for Best Picture.",
+          "answer": "true",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "How many films did John Hughes direct in the 1980s?",
+          "answer": "8",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "Which 1985 film features a time-traveling DeLorean?",
+          "answer": "Back to the Future",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which 1986 animated film was the first Disney feature to use computer-generated imagery (CGI) for a major scene?",
+          "options": ["The Great Mouse Detective", "The Little Mermaid", "Oliver & Company", "The Black Cauldron"],
+          "answer": "The Great Mouse Detective",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 9,
+      "theme_name": "Ancient Mysteries",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "Which ancient wonder of the world was located in Alexandria, Egypt?",
+          "answer": "Lighthouse of Alexandria",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "The Antikythera mechanism was an ancient Greek device used for what purpose?",
+          "options": ["Astronomical calculations", "Navigation", "Timekeeping", "Weather prediction"],
+          "answer": "Astronomical calculations",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "The Easter Island statues all face the ocean.",
+          "answer": "false",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the name of the lost city discovered by Hiram Bingham in Peru?",
+          "answer": "Machu Picchu",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which ancient civilization created the first known writing system?",
+          "options": ["Sumerians", "Egyptians", "Chinese", "Indus Valley"],
+          "answer": "Sumerians",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "In which country would you find the ancient city of Petra?",
+          "answer": "Jordan",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "round_number": 10,
+      "theme_name": "Music Theory Basics",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "How many semitones are in an octave?",
+          "answer": "12",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which clef is typically used for higher-pitched instruments?",
+          "options": ["Treble clef", "Bass clef", "Alto clef", "Tenor clef"],
+          "answer": "Treble clef",
+          "points": 1
+        },
+        {
+          "type": "true_false",
+          "question": "A major scale contains two half steps.",
+          "answer": "true",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What is the relative minor of C major?",
+          "answer": "A minor",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which time signature is known as 'common time'?",
+          "options": ["4/4", "3/4", "2/4", "6/8"],
+          "answer": "4/4",
+          "points": 1
+        },
+        {
+          "type": "text_answer",
+          "question": "What interval is formed between C and G?",
+          "answer": "Perfect fifth",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

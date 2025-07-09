@@ -20,6 +20,9 @@ export interface ElectronAPI {
   saveRoundScores: (gameId: number, roundNumber: number, teamScores: Record<string, number>) => Promise<{ changes: number } | null>;
   getRoundScores: (gameId: number, roundNumber: number) => Promise<Record<string, number>>;
   updateGameWinner: (gameId: number, winningTeamId: number) => Promise<{ changes: number } | null>;
+  
+  // System operations
+  openExternal: (url: string) => Promise<void>;
 }
 
 declare global {

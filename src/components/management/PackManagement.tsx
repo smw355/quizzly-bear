@@ -114,6 +114,16 @@ export const PackManagement: React.FC<Props> = ({
     });
   };
 
+  const handleBrowseCommunityPacks = () => {
+    if (typeof window !== 'undefined' && window.electronAPI) {
+      // In Electron, open external URL
+      window.electronAPI.openExternal('https://github.com/smw355/quizzly-bear/tree/main/community-packs');
+    } else {
+      // Fallback for web browsers
+      window.open('https://github.com/smw355/quizzly-bear/tree/main/community-packs', '_blank');
+    }
+  };
+
   const getPackStats = (pack: GamePack) => {
     // TODO: Get real usage stats from database
     return {
@@ -169,6 +179,13 @@ export const PackManagement: React.FC<Props> = ({
                 className="px-6 py-3 bg-honey-800 text-white rounded-lg hover:bg-honey-900 transition-colors"
               >
                 ➕ Create New Pack
+              </button>
+
+              <button
+                onClick={handleBrowseCommunityPacks}
+                className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              >
+                🌐 Browse Community Packs
               </button>
             </div>
 
@@ -310,6 +327,12 @@ export const PackManagement: React.FC<Props> = ({
                 className="px-6 py-3 bg-honey-800 text-white rounded-lg hover:bg-honey-900 transition-colors"
               >
                 ➕ Create New Pack
+              </button>
+              <button
+                onClick={handleBrowseCommunityPacks}
+                className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              >
+                🌐 Browse Community Packs
               </button>
             </div>
           </div>
