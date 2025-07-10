@@ -204,6 +204,8 @@ Quiz packs must be saved as properly formatted JSON files with this exact struct
 - Use kebab-case: `pack-name-here.json`
 - No spaces or special characters
 - Include version if multiple versions exist: `pack-name-v2.json`
+- Place in the `community-packs/` directory for community submissions
+- Built-in packs can also be placed in `quizpacks/` directory
 
 ## 🎨 Creative Theme Ideas
 
@@ -241,6 +243,11 @@ Explanation: "The Golden Gate Bridge is painted in International Orange to enhan
 **Strengths**: Theme doesn't reveal bridge, question tests knowledge, educational explanation
 
 ## 📚 Additional Resources
+
+### Pack Creation Tools
+- Use the built-in Pack Editor in Quizzly Bear for creating and testing packs
+- JSON validation tools to ensure proper formatting
+- The app's import/export functionality for sharing packs
 
 ### Recommended Verification Sources
 - Encyclopedia Britannica
