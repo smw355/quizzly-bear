@@ -1,0 +1,30 @@
+{
+  "name": "Test Import Pack",
+  "version": "1.0",
+  "author": "Test Author",
+  "description": "A simple test pack to debug import functionality",
+  "rounds": [
+    {
+      "round_number": 1,
+      "theme_name": "Test Round",
+      "theme_description": "A test round for debugging",
+      "questions": [
+        {
+          "type": "text_answer",
+          "question": "What is 2 + 2?",
+          "answer": "4",
+          "explanation": "Basic math: 2 + 2 = 4",
+          "points": 1
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What color is the sky?",
+          "options": ["Red", "Blue", "Green", "Yellow"],
+          "answer": "Blue",
+          "explanation": "The sky appears blue due to light scattering",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

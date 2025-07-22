@@ -203,6 +203,7 @@ function App() {
     try {
       // Save imported pack to database
       const savedPack = await databaseService.createGamePackWithRounds(pack, pack.rounds || []);
+      
       if (savedPack) {
         setAvailablePacks(prev => [...prev, savedPack]);
       }

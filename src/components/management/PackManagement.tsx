@@ -38,7 +38,10 @@ export const PackManagement: React.FC<Props> = ({
 
   const handleFileImport = async (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
-    if (!file) return;
+    
+    if (!file) {
+      return;
+    }
 
     setImporting(true);
     setImportError(null);
@@ -64,9 +67,10 @@ export const PackManagement: React.FC<Props> = ({
         active: true,
         created_at: new Date().toISOString(),
       };
-
-      onPackImported(newPack);
+      
+      await onPackImported(newPack);
     } catch (error) {
+      console.error('Import error:', error);
       setImportError(error instanceof Error ? error.message : 'Failed to import pack');
     } finally {
       setImporting(false);
@@ -183,7 +187,10 @@ export const PackManagement: React.FC<Props> = ({
 
               <button
                 onClick={handleBrowseCommunityPacks}
-                className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                className="px-6 py-3 rounded-lg transition-colors text-white"
+                style={{ backgroundColor: '#800000' }}
+                onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#660000'}
+                onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#800000'}
               >
                 🌐 Browse Community Packs
               </button>
@@ -330,7 +337,10 @@ export const PackManagement: React.FC<Props> = ({
               </button>
               <button
                 onClick={handleBrowseCommunityPacks}
-                className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                className="px-6 py-3 rounded-lg transition-colors text-white"
+                style={{ backgroundColor: '#800000' }}
+                onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#660000'}
+                onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#800000'}
               >
                 🌐 Browse Community Packs
               </button>
